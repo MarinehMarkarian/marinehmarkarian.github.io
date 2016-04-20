@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Cafe Santorini-Menu</title>
+		<meta name="description" content>
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="main.css">
+
+		<style>
+			.menu-btn {
+				display: block;
+				float: left;
+				width: 12.5%;
+				text-align: center;
+				position: relative;
+				transition: width 1s;
+			}
+			.menu-btn .menu-text {
+				display: none;
+			}
+			.menu-btn.active .menu-text {
+				display: inline;
+			}
+			.menu-btn figure {
+				max-width: 100%;
+				overflow: hidden;
+			}
+
+			.menu-btn.active {
+				width: 50%;
+			}
+			.menu-btn.active:after {
+				content: '';
+				border: 20px solid transparent;
+				border-top-color: #fff;		
+				position: absolute;
+				top: 100%;
+				left: 50%;
+				margin-left: -10px;
+			}
+
+			.section-menu {
+				display: none;
+			}
+			.section-menu.active {
+				display: block;
+			}
+			/*
+			.drinks.active {
+				left: 0;
+			}
+			.appetizers {
+				left: 12.5%;
+			}
+			.dinner {
+				left: 25%;
+			}
+			.dessert {
+				left: 12.5%;
+			}
+			.wine {
+				right: 0;
+			}
+			*/
+		</style>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header clearfix" id="header">
+				<div class="logo">
+                	<img src="logo2.png" alt="logo" id="link">
+           		</div>
+		        <div class="nav">
+		            <a href="menu.html">Menu</a>
+		            <a href="gallery.html">Gallery</a>
+		            <a href="rococo-room.html">Rococo Room</a>
+		            <a href="gift-cards.html">Gift Cards</a>
+		            <a href="contact.html">Contact</a>
+        		</div>
+        	</header>
+
+		   	<main role="main">
+				<div class="container" id="content">
+
+					<div class="row clearfix top-row">
+						<div class="headline-img-column">
+							<button class="menu-btn brunch" data-menu="brunch">
+								<figure >
+									<img src="http://www.placehold.it/450x450?text=brunch" alt="brunch menu" />
+									<figcaption>Brunch<span class="menu-text"> Menu</span></figcaption>
+								</figure>
+							</button>
+							<button class="menu-btn appetizers" data-menu="appetizers">
+								<figure >
+									<img src="http://www.placehold.it/450x450?text=appetizers" alt="appetizers menu" />
+									<figcaption>Appetizers<span class="menu-text"> Menu</span></figcaption>
+								</figure>
+							</button>
+							<button class="menu-btn dinner active" data-menu="entres">
+								<figure >
+									<img src="http://www.placehold.it/450x450?text=dinner" alt="dinner menu" />
+									<figcaption>Entres<span class="menu-text"> Menu</span></figcaption>
+								</figure>
+							</button>
+							<button class="menu-btn dessert" data-menu="dessert">
+								<figure >
+									<img src="http://www.placehold.it/450x450?text=dessert" alt="dessert menu" />
+									<figcaption>Desserts<span class="menu-text"> Menu</span></figcaption>
+								</figure>
+							</button>
+							<button class="menu-btn drinks" data-menu="drinks">
+								<figure >
+									<img src="http://www.placehold.it/450x450?text=drink" alt="drink menu" />
+									<figcaption>Drinks<span class="menu-text"> Menu</span></figcaption>
+								</figure>
+							</button>
+						</div>
+					</div><!-- end of top-row -->
+
+				<div class="row clearfix bottom-row">
+
+					<section class="section-column-menu">
+						<h1>Menu</h1>
+					</section>
+
+					<section class="section-menu" id="brunch">
+						<h2>Brunch</h2>
+					</section> <!-- end of brunch -->
+
+					<section class="section-menu" id="appetizers">
+						<h2>Appetizers</h2>
+					</section >	<!-- end of appetizers -->			
+
+					<section class="section-menu" id="entres">
+						<h2>Entres</h2>
+					
+
+						<div class="section-column1-menu">
+							<img src="leaf2.png" alt="column image" />
+						</div><!-- end of section1 leaf-->
+
+
+						<div class="section-column2-menu"> <!-- discription -->
+
+							<h3>MAIN COURSE</h3>
+							<h4>Fine Herb Roasted Organic Chicken Breast <span class="price"> $19 </span></h4>
+							<p>With roasted potatoes, seasonal vegetables & a burgundy Pocini mushroom wine sauce</p>
+
+							<h4>Grilled Filet of Atlantic Salmon <span class="price"> $27 </span></h4>
+							<p>Finished with basil beurre blanc, served with garlic mashed potates and sauteed vegetables</p>
+
+							<h4>Cioppino Santorini <span class="price"> $27 </span></h4>
+							<p>Shrimp, salmon, calamari, scallops, mussels & calms cooked in out special tomato sauce & seved with garlic bread Add Linguine... $2.00</p>
+
+							<h4>Stuffed Butternut Squash <span class="price"> $17 </span></h4>
+							<p>Roasted squash filled with rice, mixed vegetables and fresh bervs rice pilaf, roasted vegetables, hummus & pita</p>
+
+
+						</div><!-- end of section 2 --> 
+
+
+						<div class="section-column3-menu">
+							<img src="leaf2.png" alt="column image" />
+						</div><!-- end of section3 leaf-->
+
+
+						<div class="section-column4-menu"> <!-- discription -->
+							<h3>KEBOB</h3>
+							<h4>Grilled Kefta Kebab <span class="price"> $19 </span></h4>
+							<p>Sausage shaped seasoned ground beef, with rice pilaf, roasted vegetables, hummus, tzatziki & pita</p>
+
+							<h4>Santorini Lamb Souvlaki <span class="price"> $27 </span></h4>
+							<p>Grilled marinated lamb served with rice pilaf, vegetables, tzatziki, hummus & pita</p>
+
+							<h4>Grilled Beef Brochette <span class="price"> $26 </span></h4>
+							<p>Marinated kebobs of beef tenderloin served with rice pilaf, vegetables, hummus & pita</p>
+
+							<h4>Grilled Chicken Kebob <span class="price"> $26 </span></h4>
+							<p>Marinated chicken thigh meat served with rice pilaf, roasted vegetables, hummus & pita& pita</p>
+						</div>
+					</section> <!-- end of entres -->
+
+					<section class="section-menu" id="dessert">
+						<h2>Dessert</h2>
+					</section >	<!-- end of dessert -->
+
+					<section class="section-menu" id="drinks">
+						<h2>Drinks</h2>
+					</section >	<!-- end of drinks -->	
+
+				</div>
+			</main>
+           
+			<footer class="footer" id="footer">
+                <div class="container-footer">
+                    64 West Union Street, Old Pasadena, Ca 91103 | Tel: 626.564.4200
+                    2010 Cafe Santorini & Rococo Room, All Rights Reserved | Sitemap
+                </div>
+		    </footer>
+		</div>
+		<script src="jquery-2.2.3.min.js"></script>
+		<script>
+			$(document).ready(function () {
+
+				$('.menu-btn').on('click', function () {
+
+					var $activeMenuBtn = $('.menu-btn.active');
+					if ($activeMenuBtn.length > 0) {
+						var activeMenuID = $activeMenuBtn.data('menu');
+						$('#'+activeMenuID).removeClass('active');
+						$activeMenuBtn.removeClass('active');
+					}
+
+					var $menuBtn = $(this);
+					var menuID = $menuBtn.data('menu');
+					
+					$('#'+menuID).addClass('active');
+					$menuBtn.addClass('active');
+
+
+				});
+
+			});
+		</script>
+	</body>
+</html>
