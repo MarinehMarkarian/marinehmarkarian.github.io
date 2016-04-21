@@ -457,6 +457,9 @@ h2 {
 .rococo-head {
     margin-top: 20px;
 }
+.menu-btn figcaption {
+    color: red;
+}
 
 
 /*
