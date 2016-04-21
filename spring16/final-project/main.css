@@ -381,36 +381,151 @@ h1 {
     /*padding: 50px;*/
 }
 
+
 /* End of menu*/
+
+/* Contact Sheet */
 
 .section-column1-contact {
     position: relative;
     float: left;
     color:#FFFFFF;
-    width: 350px;
+    width: 270px;
     text-align: left;
-    padding: 30px 30px 200px 1px;
+    padding: 50px 30px 100px 90px;
     font-family: Avenir, Helvetica, sans-serif;
     font-size: 15px;
-
 }
 
 
-.section-column2-cantact {
+.section-column2-contact {
     position: relative;
     float: left;
     color:#FFFFFF;
     width: 350px;
     text-align: left;
-    padding: 30px 30px 200px 1px;
+    padding: 50px 30px 200px 200px;
     font-family: Avenir, Helvetica, sans-serif;
     font-size: 15px;
 
 }
 
-.section-column2-cantact h2 {
+.section-column1-contact h3 {
+    border-bottom: 2px solid #F1EBB9;
+    display: inline;
+    color: #F1EBB9;
+    font-weight: normal;
     
 }
+
+.section-column2-contact h3 {
+    border-bottom: 2px solid #F1EBB9;
+    display: inline;
+    color: #F1EBB9;
+    font-weight: normal;
+    
+}
+
+.section-column2-contact p {
+    line-height: 10px;
+}
+
+.section-column1-contact p {
+    line-height: 10px;
+}
+
+
+h2 {
+    color: #F1EBB9;
+    font-weight: normal;
+    display: inline;
+}
+
+.map {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.first-p {
+    margin-top: 20px;
+}
+
+
+.rococo-head {
+    margin-top: 20px;
+}
+
+
+/*
+.section-column2-contact h2 {
+    padding-bottom: 40px;
+}
+
+.section-column2-contact p {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+*/
+
+.time {
+    right: 0px;
+    position: relative;
+    float: right;
+}
+
+/* End of Contact Sheet */
+
+.section-column1-gallery {
+    padding-top: 2px;
+    position: relative;
+    float: left;
+    padding: 50px 1px 0px 50px;
+}
+
+.section-column2-gallery {
+    position: relative;
+    float: left;
+    width: 493px;
+    text-align: left;
+    padding: 55px 300px 50px 1px;
+    font-family: Avenir, Helvetica, sans-serif;
+
+}
+
+.section-column3-gallery {
+    position: relative;
+    float: left;
+    color:#FFFFFF;
+    width: 224px;
+    text-align: left;
+    padding: 20px 60px 100px 100px;
+    font-family: Avenir, Helvetica, sans-serif;
+
+}
+
+.section-column4-gallery {
+    position: relative;
+    float: left;
+    color:#FFFFFF;
+    width: 224px;
+    text-align: left;
+    padding: 20px 60px 100px 1px;
+    font-family: Avenir, Helvetica, sans-serif;
+
+}
+
+.section-column3-gallery img {
+    padding-bottom: 60px;
+}
+
+.section-column4-gallery img {
+    padding-bottom: 60px;
+}
+
+
 
 
 
