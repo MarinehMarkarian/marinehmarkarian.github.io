@@ -457,8 +457,46 @@ h2 {
 .rococo-head {
     margin-top: 20px;
 }
+
+.menu-btn {
+    display: block;
+    float: left;
+    width: 12.5%;
+    text-align: center;
+    position: relative;
+    transition: width 1s;
+}
+.menu-btn .menu-text {
+    display: none;
+}
+.menu-btn.active .menu-text {
+    display: inline;
+}
+.menu-btn figure {
+    max-width: 100%;
+    overflow: hidden;
+}
 .menu-btn figcaption {
     color: red;
+}
+.menu-btn.active {
+    width: 50%;
+}
+.menu-btn.active:after {
+    content: '';
+    border: 20px solid transparent;
+    border-top-color: #fff;     
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+}
+
+.section-menu {
+    display: none;
+}
+.section-menu.active {
+    display: block;
 }
 
 

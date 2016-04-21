@@ -8,63 +8,6 @@
 		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="main.css">
 
-		<style>
-			.menu-btn {
-				display: block;
-				float: left;
-				width: 12.5%;
-				text-align: center;
-				position: relative;
-				transition: width 1s;
-			}
-			.menu-btn .menu-text {
-				display: none;
-			}
-			.menu-btn.active .menu-text {
-				display: inline;
-			}
-			.menu-btn figure {
-				max-width: 100%;
-				overflow: hidden;
-			}
-
-			.menu-btn.active {
-				width: 50%;
-			}
-			.menu-btn.active:after {
-				content: '';
-				border: 20px solid transparent;
-				border-top-color: #fff;		
-				position: absolute;
-				top: 100%;
-				left: 50%;
-				margin-left: -10px;
-			}
-
-			.section-menu {
-				display: none;
-			}
-			.section-menu.active {
-				display: block;
-			}
-			/*
-			.drinks.active {
-				left: 0;
-			}
-			.appetizers {
-				left: 12.5%;
-			}
-			.dinner {
-				left: 25%;
-			}
-			.dessert {
-				left: 12.5%;
-			}
-			.wine {
-				right: 0;
-			}
-			*/
-		</style>
 	</head>
 
 	<body>
@@ -123,51 +66,134 @@
 
 				<div class="row clearfix bottom-row">
 
+						<section class="section-menu clearfix" id="brunch">
+							<h2>Brunch</h2>
 
-						<div class="section-column1-menu">
-							<img src="leaf2.png" alt="column image" />
-						</div><!-- end of section1 leaf-->
+							<div class="section-column1-menu">
+								<img src="leaf2.png" alt="column image" />
+							</div><!-- end of section1 leaf-->
+
+							<div class="section-column2-menu"> <!-- discription -->
+								text...
+							</div><!-- end of section 2 --> 
+
+							<div class="section-column3-menu">
+								<img src="leaf2.png" alt="column image" />
+							</div><!-- end of section3 leaf-->
+
+							<div class="section-column4-menu"> <!-- discription -->
+								text...
+							</div>
+						</section> <!-- end of brunch -->
+
+						<section class="section-menu clearfix" id="appetizers">
+							<h2>Appetizers</h2>
+
+							<div class="section-column1-menu">
+								<img src="leaf2.png" alt="column image" />
+							</div><!-- end of section1 leaf-->
+
+							<div class="section-column2-menu"> <!-- discription -->
+								text...
+							</div><!-- end of section 2 --> 
+
+							<div class="section-column3-menu">
+								<img src="leaf2.png" alt="column image" />
+							</div><!-- end of section3 leaf-->
+
+							<div class="section-column4-menu"> <!-- discription -->
+								text...
+							</div>
+						</section >	<!-- end of appetizers -->			
+
+						<section class="section-menu clearfix" id="entres">
+							<h2>Entres</h2>
 
 
-						<div class="section-column2-menu"> <!-- discription -->
-
-							<h3>MAIN COURSE</h3>
-							<h4>Fine Herb Roasted Organic Chicken Breast <span class="price"> $19 </span></h4>
-							<p>With roasted potatoes, seasonal vegetables & a burgundy Pocini mushroom wine sauce</p>
-
-							<h4>Grilled Filet of Atlantic Salmon <span class="price"> $27 </span></h4>
-							<p>Finished with basil beurre blanc, served with garlic mashed potates and sauteed vegetables</p>
-
-							<h4>Cioppino Santorini <span class="price"> $27 </span></h4>
-							<p>Shrimp, salmon, calamari, scallops, mussels & calms cooked in out special tomato sauce & seved with garlic bread Add Linguine... $2.00</p>
-
-							<h4>Stuffed Butternut Squash <span class="price"> $17 </span></h4>
-							<p>Roasted squash filled with rice, mixed vegetables and fresh bervs rice pilaf, roasted vegetables, hummus & pita</p>
+							<div class="section-column1-menu">
+								<img src="leaf2.png" alt="column image" />
+							</div><!-- end of section1 leaf-->
 
 
-						</div><!-- end of section 2 --> 
+							<div class="section-column2-menu"> <!-- discription -->
+
+								<h3>MAIN COURSE</h3>
+								<h4>Fine Herb Roasted Organic Chicken Breast <span class="price"> $19 </span></h4>
+								<p>With roasted potatoes, seasonal vegetables & a burgundy Pocini mushroom wine sauce</p>
+
+								<h4>Grilled Filet of Atlantic Salmon <span class="price"> $27 </span></h4>
+								<p>Finished with basil beurre blanc, served with garlic mashed potates and sauteed vegetables</p>
+
+								<h4>Cioppino Santorini <span class="price"> $27 </span></h4>
+								<p>Shrimp, salmon, calamari, scallops, mussels & calms cooked in out special tomato sauce & seved with garlic bread Add Linguine... $2.00</p>
+
+								<h4>Stuffed Butternut Squash <span class="price"> $17 </span></h4>
+								<p>Roasted squash filled with rice, mixed vegetables and fresh bervs rice pilaf, roasted vegetables, hummus & pita</p>
 
 
-						<div class="section-column3-menu">
-							<img src="leaf2.png" alt="column image" />
-						</div><!-- end of section3 leaf-->
+							</div><!-- end of section 2 --> 
 
 
-						<div class="section-column4-menu"> <!-- discription -->
-							<h3>KEBOB</h3>
-							<h4>Grilled Kefta Kebab <span class="price"> $19 </span></h4>
-							<p>Sausage shaped seasoned ground beef, with rice pilaf, roasted vegetables, hummus, tzatziki & pita</p>
+							<div class="section-column3-menu">
+								<img src="leaf2.png" alt="column image" />
+							</div><!-- end of section3 leaf-->
 
-							<h4>Santorini Lamb Souvlaki <span class="price"> $27 </span></h4>
-							<p>Grilled marinated lamb served with rice pilaf, vegetables, tzatziki, hummus & pita</p>
 
-							<h4>Grilled Beef Brochette <span class="price"> $26 </span></h4>
-							<p>Marinated kebobs of beef tenderloin served with rice pilaf, vegetables, hummus & pita</p>
+							<div class="section-column4-menu"> <!-- discription -->
+								<h3>KEBOB</h3>
+								<h4>Grilled Kefta Kebab <span class="price"> $19 </span></h4>
+								<p>Sausage shaped seasoned ground beef, with rice pilaf, roasted vegetables, hummus, tzatziki & pita</p>
 
-							<h4>Grilled Chicken Kebob <span class="price"> $26 </span></h4>
-							<p>Marinated chicken thigh meat served with rice pilaf, roasted vegetables, hummus & pita& pita</p>
-						</div>
-					</section> <!-- end of entres -->
+								<h4>Santorini Lamb Souvlaki <span class="price"> $27 </span></h4>
+								<p>Grilled marinated lamb served with rice pilaf, vegetables, tzatziki, hummus & pita</p>
+
+								<h4>Grilled Beef Brochette <span class="price"> $26 </span></h4>
+								<p>Marinated kebobs of beef tenderloin served with rice pilaf, vegetables, hummus & pita</p>
+
+								<h4>Grilled Chicken Kebob <span class="price"> $26 </span></h4>
+								<p>Marinated chicken thigh meat served with rice pilaf, roasted vegetables, hummus & pita& pita</p>
+							</div>
+						</section> <!-- end of entres -->
+
+						<section class="section-menu clearfix" id="dessert">
+							<h2>Dessert</h2>
+
+							<div class="section-column1-menu">
+								<img src="leaf2.png" alt="column image" />
+							</div><!-- end of section1 leaf-->
+
+							<div class="section-column2-menu"> <!-- discription -->
+								text...
+							</div><!-- end of section 2 --> 
+
+							<div class="section-column3-menu">
+								<img src="leaf2.png" alt="column image" />
+							</div><!-- end of section3 leaf-->
+
+							<div class="section-column4-menu"> <!-- discription -->
+								text...
+							</div>
+						</section >	<!-- end of dessert -->
+
+						<section class="section-menu clearfix" id="drinks">
+							<h2>Drinks</h2>
+
+							<div class="section-column1-menu">
+								<img src="leaf2.png" alt="column image" />
+							</div><!-- end of section1 leaf-->
+
+							<div class="section-column2-menu"> <!-- discription -->
+								text...
+							</div><!-- end of section 2 --> 
+
+							<div class="section-column3-menu">
+								<img src="leaf2.png" alt="column image" />
+							</div><!-- end of section3 leaf-->
+
+							<div class="section-column4-menu"> <!-- discription -->
+								text...
+							</div>
+						</section >	<!-- end of drinks -->	
 
 				</div>
 			</main>
@@ -197,9 +223,9 @@
 					
 					$('#'+menuID).addClass('active');
 					$menuBtn.addClass('active');
-
-
 				});
+
+				$('.menu-btn.dinner').trigger('click');
 
 			});
 		</script>
