@@ -362,8 +362,17 @@ h1 {
     padding: 72px 30px 200px 50px;
     font-family: Avenir, Helvetica, sans-serif;
     font-size: 15px;
+}
 
-
+.section-column4-desert-menu {
+    position: relative;
+    float: left;
+    color:#FFFFFF;
+    width: 348px;
+    text-align: left;
+    padding: 90px 30px 200px 50px;
+    font-family: Avenir, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 .section-column2-menu h3 {
@@ -395,6 +404,15 @@ h1 {
 .section-column4-brunch-menu p {
     margin: 3px 0px 20px 0px;
 }
+
+.section-column4-desert-menu h4 {
+     margin: 0px;
+}
+
+.section-column4-desert-menu p {
+    margin: 3px 0px 20px 0px;
+}
+
 
 .section-column4-menu p {
     margin: 3px 0px 20px 0px;
