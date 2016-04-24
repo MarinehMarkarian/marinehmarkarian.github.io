@@ -139,9 +139,9 @@ h1 {
 }
 .container-footer {
     background: #FBFAF2;
-    padding: 30px 250px 50px 250px;
+    padding: 30px 270px 50px 270px;
     color: #631F0C;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .headline-img-column {
@@ -315,7 +315,7 @@ h1 {
     position: relative;
     float: left;
     color:#FFFFFF;
-    width: 350px;
+    width: 348px;
     text-align: left;
     padding: 30px 30px 200px 1px;
     font-family: Avenir, Helvetica, sans-serif;
@@ -331,18 +331,39 @@ h1 {
     position: relative;
     float: left;
     padding: 35px 5px;
+    margin-right: 20px;
+    width: 20px ;
 
-} /* leaf */
+} 
+
+.section-column3-menu img {
+    margin-bottom: 559px;
+}
+
+/* leaf */
 
 .section-column4-menu {
     position: relative;
     float: left;
     color:#FFFFFF;
-    width: 350px;
+    width: 348px;
     text-align: left;
     padding: 30px 30px 200px 1px;
     font-family: Avenir, Helvetica, sans-serif;
     font-size: 15px;
+}
+
+.section-column4-brunch-menu {
+    position: relative;
+    float: left;
+    color:#FFFFFF;
+    width: 348px;
+    text-align: left;
+    padding: 72px 30px 200px 50px;
+    font-family: Avenir, Helvetica, sans-serif;
+    font-size: 15px;
+
+
 }
 
 .section-column2-menu h3 {
@@ -365,6 +386,14 @@ h1 {
 
 .section-column4-menu h4 {
     margin: 0px;
+}
+
+.section-column4-brunch-menu h4 {
+    margin: 0px;
+}
+
+.section-column4-brunch-menu p {
+    margin: 3px 0px 20px 0px;
 }
 
 .section-column4-menu p {
@@ -477,7 +506,8 @@ h2 {
     overflow: hidden;
 }
 .menu-btn figcaption {
-    color: red;
+    color: #631F0C;
+    font-weight: 600;
 }
 .menu-btn.active {
     width: 50%;
