@@ -144,6 +144,16 @@ h1 {
     font-size: 14px;
 }
 
+.container-social-media {
+    padding-left: 150px;
+    padding-top: 10px;
+
+}
+.container-social-media img {
+    margin-right: 10px;
+}
+
+
 .headline-img-column {
     position: relative;
     float: left;
@@ -167,7 +177,7 @@ h1 {
     color:#FFFFFF;
     width: 493px;
     text-align: left;
-    padding: 55px 93px 200px 1px;
+    padding: 55px 93px 100px 1px;
     font-family: Avenir, Helvetica, sans-serif;
 }
 
@@ -254,7 +264,7 @@ h1 {
     color:#FFFFFF;
     width: 493px;
     text-align: left;
-    padding: 55px 93px 30px 1px;
+    padding: 55px 93px 10px 1px;
     font-family: Avenir, Helvetica, sans-serif;
 }
 
@@ -284,7 +294,7 @@ h1 {
 
 .submit {
     text-align: left;
-    padding: 25px 0px 50px 500px;
+    padding: 25px 0px 89px 500px;
    
 }
 
@@ -336,8 +346,39 @@ h1 {
 
 } 
 
-.section-column3-menu img {
+.section-column3-lunch-menu {
+    position: relative;
+    float: left;
+    padding: 35px 5px;
+    margin-right: 20px;
+    width: 20px ;
+}
+
+.section-column3-lunch-menu img {
     margin-bottom: 559px;
+}
+
+.section-column3-drinks-menu {
+    position: relative;
+    float: left;
+    padding: 35px 5px;
+    margin-right: 20px;
+    width: 20px ;
+}
+.section-column3-drinks-menu img {
+    margin-bottom: 210px;
+}
+
+.section-column1-drinks-menu {
+    position: relative;
+    float: left;
+    padding: 35px 0px 0px 50px;
+    margin-right: 25px;
+    width: 20px;
+}
+
+.section-column1-drinks-menu img {
+    margin-bottom: 210px;
 }
 
 /* leaf */
@@ -362,8 +403,17 @@ h1 {
     padding: 72px 30px 200px 50px;
     font-family: Avenir, Helvetica, sans-serif;
     font-size: 15px;
+}
 
-
+.section-column4-desert-menu {
+    position: relative;
+    float: left;
+    color:#FFFFFF;
+    width: 348px;
+    text-align: left;
+    padding: 90px 30px 200px 50px;
+    font-family: Avenir, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 .section-column2-menu h3 {
@@ -396,6 +446,15 @@ h1 {
     margin: 3px 0px 20px 0px;
 }
 
+.section-column4-desert-menu h4 {
+     margin: 0px;
+}
+
+.section-column4-desert-menu p {
+    margin: 3px 0px 20px 0px;
+}
+
+
 .section-column4-menu p {
     margin: 3px 0px 20px 0px;
     
@@ -419,9 +478,9 @@ h1 {
     position: relative;
     float: left;
     color:#FFFFFF;
-    width: 270px;
+    width: 350px;
     text-align: left;
-    padding: 50px 30px 100px 90px;
+    padding: 50px 50px 100px 90px;
     font-family: Avenir, Helvetica, sans-serif;
     font-size: 15px;
 }
@@ -433,7 +492,7 @@ h1 {
     color:#FFFFFF;
     width: 350px;
     text-align: left;
-    padding: 50px 30px 200px 200px;
+    padding: 50px 30px 200px 70px;
     font-family: Avenir, Helvetica, sans-serif;
     font-size: 15px;
 
@@ -596,6 +655,13 @@ h2 {
     padding-bottom: 60px;
 }
 
+.confirmation {
+    color: #631F0C;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+}
 
 
 
