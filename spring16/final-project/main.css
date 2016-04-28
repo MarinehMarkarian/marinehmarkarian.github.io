@@ -148,9 +148,15 @@ h1 {
     padding-left: 150px;
     padding-top: 10px;
 
+
 }
 .container-social-media img {
     margin-right: 10px;
+   
+}
+.container-social-media a {
+     border-bottom: none;
+
 }
 
 
@@ -224,14 +230,21 @@ h1 {
 }
 
 .section2-column-rococo {
-    padding: 60px 50px 50px 93px;
+    padding: 10px 50px 10px 93px;
 
 }
+
+.section2-column-rococo img {
+    padding-top: 50px;
+
+}
+
+
 
 .section3-column-rococo {
     position: relative;
     float: left;
-    padding: 10px 10px 50px 93px;
+    padding: 10px 10px 60px 93px;
 
 }
 
@@ -272,21 +285,28 @@ h1 {
     padding-top: 10px;
 }
 
+.section-column1-giftcard img {
+    position: relative;
+    float: left;
+    padding: 50px 1px 0px 230px;
+}
+
 .form-field {
     padding: 5px;
     text-align: left;
 }
 .form-field label {
-    padding-left: 200px;
+    padding-left: 280px;
     color: #fff;
     display: inline-block;
-    width: 175px;
+    width: 148px;
 }
 
 .form legend {
     text-align: left;
     padding-top: 20px;
-    padding-left: 200px;
+    padding-left: 280px;
+    padding-bottom: 20px;
     color: #F1EBB9;
     font-family: Avenir, Helvetica, sans-serif;
     font-size: 20px;
@@ -294,12 +314,16 @@ h1 {
 
 .submit {
     text-align: left;
-    padding: 25px 0px 89px 500px;
+    padding: 30px 0px 89px 550px;
    
 }
 
 .form input {
     width: 300px;
+}
+
+.container-social-media > a {
+    text-decoration: none;
 }
 
 /* End of Giftcard */
@@ -325,9 +349,9 @@ h1 {
     position: relative;
     float: left;
     color:#FFFFFF;
-    width: 348px;
+    width: 345px;
     text-align: left;
-    padding: 30px 30px 200px 1px;
+    padding: 30px 43px 110px 1px;
     font-family: Avenir, Helvetica, sans-serif;
     font-size: 15px;
 }
@@ -389,7 +413,7 @@ h1 {
     color:#FFFFFF;
     width: 348px;
     text-align: left;
-    padding: 30px 30px 200px 1px;
+    padding: 30px 30px 110px 1px;
     font-family: Avenir, Helvetica, sans-serif;
     font-size: 15px;
 }
@@ -411,7 +435,7 @@ h1 {
     color:#FFFFFF;
     width: 348px;
     text-align: left;
-    padding: 90px 30px 200px 50px;
+    padding: 90px 30px 130px 50px;
     font-family: Avenir, Helvetica, sans-serif;
     font-size: 15px;
 }
@@ -480,7 +504,7 @@ h1 {
     color:#FFFFFF;
     width: 350px;
     text-align: left;
-    padding: 50px 50px 100px 90px;
+    padding: 50px 50px 100px 1px;
     font-family: Avenir, Helvetica, sans-serif;
     font-size: 15px;
 }
@@ -492,7 +516,7 @@ h1 {
     color:#FFFFFF;
     width: 350px;
     text-align: left;
-    padding: 50px 30px 200px 70px;
+    padding: 55px 30px 100px 70px;
     font-family: Avenir, Helvetica, sans-serif;
     font-size: 15px;
 
@@ -661,6 +685,36 @@ h2 {
     font-weight: bold;
     text-align: center;
     padding-top: 40px;
+}
+
+form  > button {
+    background-color: #d4c2b7;
+    font-family: Avenir, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #622010;
+}
+
+.section-column-giftcard-confirmation{
+    position: relative;
+    float: left;
+    color:#FFFFFF;
+    width: 650px;
+    text-align: left;
+    padding: 55px 93px 10px 1px;
+    font-family: Avenir, Helvetica, sans-serif;
+
+}
+.section-column-giftcard-confirmation p{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+
+.section-column1-confirmation {
+    padding-top: 2px;
+    position: relative;
+    float: left;
+    padding: 50px 1px 0px 50px;
 }
 
 
