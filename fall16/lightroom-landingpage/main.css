@@ -964,6 +964,8 @@ h3 {
 
 .nav {
   float: right;
+  padding-top: 10px;
+  padding-bottom: 5px
 }
 
 .nav a{
@@ -977,6 +979,7 @@ h3 {
 a {
   text-decoration: none;
   color: #74b4e9;
+  font-size: 16px;
 }
 
 .wrapper {
@@ -995,41 +998,77 @@ a {
   float: left;
   width: 600px;
   padding-left: 30px;
-  padding-right: 30px;
   padding-top: 40px;
-
+  margin-left: 4px;
 }
+
+
+.heading img {
+  float:left;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+
+.header h1{
+  position: relative;
+  padding-right: 4px;
+  margin: 2px;
+  padding: 2px;
+}
+
 
 .Intro {
   float: right;
-  width: 286px;
+  width: 320px;
   color: #FFFFFF;
-  padding-top: 250px;
-  padding-right: 30px;
+  padding-top: 270px;
+  padding-right: 38px;
+
 }
 
 
 
 /*--- purchase ---*/
 
+
 p.purchase {
   color: #702a6a;
   text-align: center;
 }
 
+p>input {
+  background-color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ffffff;
+  color: #702a6a;
+  border-bottom: 2px solid #702a6a;
+  text-shadow: 0px 1px 1px #ffffff;
+  
+}
+
+/*---whatsnew---*/
+
 .whatsnew {
   color: #FFFFFF;
   background-color: #702a6a;
   text-align: center;
-  font-size: 10pt;
-  padding: 30px 30px 30px 30px;
+  padding: 20px 30px 20px 30px;
 }
+
+.whatsnew p{
+  font-size: 16px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
 
 .column1, .column2, .column3, .column4 {
   float: left;
   margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 35px;
+  margin-bottom: 5px;
 }
 
 
@@ -1038,43 +1077,66 @@ p.purchase {
 .article p {
   color: #702a6a;
   font-size: 14px;
-
 }
 
+
 .adobeid {
-  text-align: center;
+  text-align: left;
   background: #702a6a;
   color: #FFFFFF;
   font-size: 27px;
   font-weight: lighter;
   font-family: 'Fira Sans', sans-serif;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 260px;
+  margin-bottom: 1px;
 }
 
 /*----Form----*/
 
 .form {
-  text-align: center;
+  text-align: left;
+  padding-left: 260px;
 
 }
 
 .form h1 {
   color: #702a6a;
   margin-top: 5px;
+  font-size: 30px;
 }
 
 .form h3 {
+  color: #702a6a;
   margin-bottom: 5px;
+  font-size: 16px;
+}
+
+form p {
+  color: #702a6a;
+  margin: 7px;
+}
+
+.countries {
+  font-size: 14px;
+  border: 1px solid #702a6a;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #702a6a;
+  width: 492px;
+  margin-bottom: 7px;
 }
 
 .submit input {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 219px;
+  padding-right: 219px;
   background-color: #ffffff;
   color: #702a6a;
   border-bottom: 2px solid #702a6a;
   text-shadow: 0px 1px 1px #ffffff;
+  margin-bottom: 3px;
+  margin-top: 7px;
 }
 
 
@@ -1087,43 +1149,70 @@ input {
 
 }
 
-.countries {
-  font-size: 14px;
-  border: 1px solid #702a6a;
-  border-radius: 5px;
-  background-color: #ffffff;
-  color: #702a6a;
-  width: 442px;
-}
+
+
 
 /*--- buy now ----*/
 
 .buynow{
   background-color: #702a6a;
   padding: 5px 5px 5px 5px;
+  height: 400px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+
 }
 
 .photopackage {
   background-color: #702a6a;
   float: left;
-  width: 251px;
+  width: 280px;
   color: #ffffff;
-  border: 3px solid #ffffff;
+  border: 2px solid #ffffff;
   padding: 20px;
   border-radius: 5px;
+  margin-left: 170px;
+  margin-top: 50px;
 
 }
 
 .completepackage {
   background-color: #702a6a;
-  width: 251px;
-  float: left;
+  width: 280px;
   color: #ffffff;
-  border: 3px solid #ffffff;
+  border: 2px solid #ffffff;
   padding: 20px;
   border-radius: 5px;
+  margin-left: 519px;
+  padding-bottom: 20px;
+  margin-top: 50px;
 
+}
 
+.buynow input {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #702a6a;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  border: 1px solid #ffffff;
+  text-shadow: 0px 1px 1px #702a6a;
+
+}
+
+.footer {
+  background-color: #702a6a;
+  padding: 10px 10px;
+  text-align: center;
+}
+.footer a {
+
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 30px;
+  padding-right: 30px;
+  padding-left: 15px;
 }
 
 
