@@ -435,7 +435,11 @@ h1 {
     color:#FFFFFF;
     width: 348px;
     text-align: left;
+<<<<<<< HEAD
+    padding: 90px 30px 200px 50px;
+=======
     padding: 90px 30px 130px 50px;
+>>>>>>> origin/master
     font-family: Avenir, Helvetica, sans-serif;
     font-size: 15px;
 }
