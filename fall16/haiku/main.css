@@ -54,33 +54,48 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
-    position: center;
-}
+
 
 .wrapper {
   width: 960px;
   margin: 0px auto;
-  padding-left: 400px;
+  background-image: url(img2.jpg);
+  background-repeat: no-repeat;
+  height: 639px;
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+#box1 {
+    font-size: 40px;
+}
+
+#box2 {
+    font-size: 30px;
+    color: #fbb010;
+    background: transparent #ffffff;
+}
+
+
+#box1:hover {
+    animation: fadein 2s;
+    transform: rotate(50deg) translate(0,1500px);
+    transition-duration: 20s;
+    transition-delay: 0s;
+}
+
+#box2:hover {
+    transform: translate(1500px,0);
+    transition-duration: 20s;
+    transition-delay: 0s;
 
 }
 
-.backgroundimage {
-    background-image: url(img1.jpg);
-    background-repeat: no-repeat;
-    height: 639px;
-    text-align: center;
-    color: #ffffff;
-    padding-top: 200px;
+#box3:hover {
+    transform: translate(1500px,0);
+    transition-duration: 20s;
+    transition-delay: 0s;
 }
-
-.box {
-    transform: scale(10x);
-}
-
-
-
-
 
 
 
