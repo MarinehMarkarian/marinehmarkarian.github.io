@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+html 
+{
+	background-color: #f8e58c;
+}
+* {
+    color: #573606;
+}
+a {
+    color: #a20800;
+}
+a:hover {
+    color: #000800;
+}
+h1 {
+	color: #7E320A;}
+body { 
+	font-family: Georgia,times,serif;
+}
+h2 {
+	color: #BB6B43
+}
+h3 {
+	color: #E4974C
+}
+div {
+	background-color: #889FE0;
+}
+
+.ingredients {
+	background-color: #FFCB3F;
+	padding: 10px;
+}
+.big-links {
+	font-size: 1.3rem;
+}
+.instructions {
+	background-color: #FFCB3F;
+	padding: 10px;
+}
+.ganache {
+	background-color: #775118;
+	padding: 10px;
+}
+.ganache li {
+	color: #D68D00
+}
+table {
+	background-color: #FFBB38;
+	padding: 20px;
+	margin-left: 48px;
+}
+
+	
+	
