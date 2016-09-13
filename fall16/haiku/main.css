@@ -69,20 +69,22 @@ textarea {
 #box1 {
     font-size: 40px;
 }
-
-#box2 {
-    font-size: 30px;
-    color: #fbb010;
-    background: transparent #ffffff;
-}
-
-
 #box1:hover {
-    animation: fadein 2s;
+    animation:fade-in 1s infinite;
     transform: rotate(50deg) translate(0,1500px);
     transition-duration: 20s;
     transition-delay: 0s;
 }
+
+
+#box2 {
+    font-size: 30px;
+    color: #ffffff;
+    width: 460px;
+    background: rgba(300, 100, 80, 0.3);
+
+}
+
 
 #box2:hover {
     transform: translate(1500px,0);
@@ -91,10 +93,17 @@ textarea {
 
 }
 
+
+
+#box3{
+    font-size: 30px;
+
+}
+
 #box3:hover {
-    transform: translate(1500px,0);
     transition-duration: 20s;
     transition-delay: 0s;
+    transform: scale(4) translate(1500px,0) ;
 }
 
 
