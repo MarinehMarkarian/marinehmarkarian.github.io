@@ -954,16 +954,6 @@ textarea {
 }
 
 
-.firstrow {
- float: left;
- position: relative;
-}
-
-
-img {
-
-}
-
 
 
 p {
@@ -977,10 +967,6 @@ p {
   border-radius: 50%;
 }
 
-.secondrow {
-  float: left;
-
-}
 
 
 /*-----------combo1------------*/
