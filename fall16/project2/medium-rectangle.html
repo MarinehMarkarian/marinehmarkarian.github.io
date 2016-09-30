@@ -33,12 +33,12 @@
             }
 
            #text1 {
-            animation-name: down;
-            animation-delay: .5s;
-            animation-duration: 0.83s;
-            animation-iteration-count: 1;
-            animation-direction: normal;
-            animation-fill-mode: both;
+                animation-name: down;
+                animation-delay: .5s;
+                animation-duration: 0.83s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
            }
 
            @keyframes down{
@@ -51,49 +51,46 @@
                     transform: translate(0,0px);
 
                 }
-           
             }
 
             #text2{
-            animation-name: slide;
-            animation-delay: 1s;
-            animation-duration: 0.83s;
-            animation-iteration-count: 1;
-            animation-direction: normal;
-            animation-fill-mode: both;
+                animation-name: slide;
+                animation-delay: 1s;
+                animation-duration: 0.83s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
             }
 
             @keyframes slide{
-            0% {
-                transform: translate(-300px,0);
-            }
+                0% {
+                    transform: translate(-300px,0);
+                }
 
-            30% {
-                transform: translate(0px,0);
-            }
-            
+                30% {
+                    transform: translate(0px,0);
+                }   
             }
 
 
             #text3{
-            animation-name: slide2;
-            animation-delay: 2s;
-            animation-duration: 0.83s;
-            animation-iteration-count: 1;
-            animation-direction: normal;
-            animation-fill-mode: both;
+                animation-name: slide2;
+                animation-delay: 2s;
+                animation-duration: 0.83s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
             }
 
           
              @keyframes slide2{
-            0% {
-                transform: translate(-300px,0);
-             }
+                0% {
+                    transform: translate(-300px,0);
+                 }
 
-            70% {
-                transform: translate(0px,0);
-            }
-            
+                70% {
+                    transform: translate(0px,0);
+                }   
             }
 
             /*--
@@ -178,45 +175,46 @@
 
             @keyframes fadein{
 
-            0% {
-                opacity: 0;
-            }
-            20% { 
-                opacity: 1;
-             }
-
+                0% {
+                    opacity: 0;
+                }
+                20% { 
+                    opacity: 1;
+                }
             }
 
 
      
           .backgroundimage {
-            animation-name: slideup;
-            animation-delay: 3s;
-            animation-duration: 0.83s;
-            animation-iteration-count: 1;
-            animation-direction: normal;
-            animation-fill-mode: both;
+                animation-name: slideup;
+                animation-delay: 3s;
+                animation-duration: 0.83s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
 
           }
-          @keyframes slideup{
-             0% {
-                transform: translate(0,0px);
 
+          @keyframes slideup{
+                0% {
+                    transform: translate(0,0px);
+
+                    }
+             
+                100% {
+                    transform: translate(0,-300px);
                 }
-         
-            100% {
-                transform: translate(0,-300px);
-            }
             }
 
 
             /*----------------slide2-----------------*/
-              .slide2 {
+            .slide2 {
                 position: absolute;
                 top: 0;
                 left: 0;
             }
 
+            /*--
             .backgroundimage2 img{
                 animation-name: slideup2;
                 animation-delay: 3s;
@@ -233,7 +231,7 @@
                     transform: translate(0,-254px);
                 }
             }
-
+            --*/
 
             #sun {
                 animation-name: fadein2;
@@ -243,19 +241,18 @@
             }
 
             @keyframes fadein2{
-              0% {
-                opacity: 0;
-            }
-            20% { 
-                opacity: 1;
-             }
-
+                0% {
+                    opacity: 0;
+                }
+                20% { 
+                    opacity: 1;
+                }
             }
 
             #plant {
                 animation-name: slideup3;
                 animation-delay: 4s;
-                animation-duration: 0.83;
+                animation-duration: 0.83s;
                 animation-fill-mode: both;
             }
 
@@ -267,32 +264,27 @@
                     transform: translate(0,0px);
                 }
             }
-            }
+           
 
             .backgroundimage2 {
-            animation-name: slideupend;
-            animation-delay: 4.5s;
-            animation-duration: 0.83s;
-            animation-iteration-count: 1;
-            animation-direction: normal;
-            animation-fill-mode: both;
-
+                animation-name: firstslideup;
+                animation-delay: 3s;
+                animation-duration: 0.83s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
             }
+           
 
-            @keyframes slideupend{
-             0% {
-                transform: translate(0,0px);
-
+            @keyframes firstslideup{
+                 0% {
+                    transform: translate(0,0px);
+                    }
+             
+                100% {
+                    transform: translate(0,-255px);
                 }
-         
-            100% {
-                transform: translate(0,-300px);
             }
-            }
-
-
-
-
 
 
 
