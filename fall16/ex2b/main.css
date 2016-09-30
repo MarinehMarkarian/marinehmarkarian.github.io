@@ -948,8 +948,32 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#combo {
-  animation-name: leftToRight, rainbow1;
+.wrapper {
+  margin-left: 550px;
+  margin-top: 200px;
+}
+
+
+
+
+p {
+  border: 2px solid #000000;
+  margin: 0px auto;
+  padding: 50px;
+  background: #ccc;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+
+
+/*-----------combo1------------*/
+
+
+#combo1 p, img{
+  animation-name: upAndDown, rainbow;
   animation-delay: 1s;
   animation-duration: 2s;
   animation-iteration-count: 11,3;
@@ -958,148 +982,23 @@ textarea {
 }
 
 
+@keyframes upAndDown{
 
-.box1 {
-  float: left;
-  border: 2px solid #000000;
-  margin: 50px auto;
-  padding: 50px;
-  background: #ccc;
-  width: 100px;
-  height: 100px;
-  text-align: center;
 
-}
-
-@keyframes leftToRight {
-
-0% {
-  transform: translate(-500px,0);
-}
-
-50% {
+25% {
   border-radius: 50%;
-}
-
-100% {
-  transform: translate(200px, 250px);
-}
-
-}
-
-@keyframes rainbow1{
-  0%{
-    background: #000000;
     }
-  11%{
-    background: #ff0000;
+
+30% { 
+  transform: rotateX(180deg);
     }
-  22%{
-    background: #ff9900;
-    }
-  55%{
-    background: #00ffff;
-    }
- 100%{
-   background: #000000;
- }
-}
-
-
-
-#combo4 {
-  animation-name: leftToRight, rainbow1;
-  animation-delay: 1s;
-  animation-duration: 2s;
-  animation-iteration-count: 11,3;
-  animation-direction: alternate,normal;
-  animation-fill-mode: both;
-}
-
-
-
-.box4 {
-  float: left;
-  border: 2px solid #000000;
-  margin: 50px auto;
-  padding: 50px;
-  background: #ccc;
-  width: 100px;
-  height: 100px;
-  text-align: center;
-
-}
-
-@keyframes leftToRight {
-
-0% {
-  transform: translate(-500px,0);
-}
-
-50% {
-  border-radius: 50%;
-}
-
-100% {
-  transform: translate(200px, 250px);
+40% {
+  transform: rotateZ(180deg);
 }
 
 }
 
-@keyframes rainbow1{
-  0%{
-    background: #000000;
-    }
-  11%{
-    background: #ff0000;
-    }
-  22%{
-    background: #ff9900;
-    }
-  55%{
-    background: #00ffff;
-    }
- 100%{
-   background: #000000;
- }
-}
-/*--------------------------*/
 
-#combo2 {
-  animation-name: rightToLeft, rainbow;
-  animation-delay: 1s;
-  animation-duration: 2s;
-  animation-iteration-count: 11,3;
-  animation-direction: alternate,normal;
-  animation-fill-mode: both;
-}
-
-.box2 {
-  border: 2px solid #000000;
-  margin: 5px auto;
-  padding: 50px;
-  background: #ccc;
-  width: 100px;
-  height: 100px;
-  text-align: center;
-
-}
-
-
-
-@keyframes rightToLeft {
-
-0% {
-  transform: translate(500px,0);
-}
-
-50% {
-  border-radius: 50%;
-}
-
-100% {
-  transform: translate(-250px, -200px);
-}
 
 }
 
@@ -1107,24 +1006,26 @@ textarea {
   0%{
     background: #000000;
     }
-  11%{
+  20%{
     background: #ff0000;
     }
-  22%{
+  30%{
     background: #ff9900;
     }
-  55%{
+  40%{
     background: #00ffff;
     }
- 100%{
+  50%{
    background: #000000;
  }
 }
 
-/*--------------------------*/
 
-#combo3 {
-  animation-name: rightToLeft2, rainbow3;
+/*-----------combo2------------*/
+
+
+#combo2 p{
+  animation-name: downAndUp, rainbow1;
   animation-delay: 1s;
   animation-duration: 2s;
   animation-iteration-count: 11,3;
@@ -1132,36 +1033,19 @@ textarea {
   animation-fill-mode: both;
 }
 
-.box3 {
-  border: 2px solid #000000;
-  margin: 5px auto;
-  padding: 50px;
-  background: #ccc;
-  width: 100px;
-  height: 100px;
-  text-align: center;
 
-}
+@keyframes downAndUp{
 
 
-
-@keyframes rightToLeft2 {
-
-0% {
-  transform: translate(500px,0);
-}
-
-50% {
+25% {
   border-radius: 50%;
 }
 
-100% {
-  transform: translate(-250px, -200px);
-}
+
 
 }
 
-@keyframes rainbow3{
+@keyframes rainbow1{
   0%{
     background: #000000;
     }
@@ -1178,6 +1062,9 @@ textarea {
    background: #000000;
  }
 }
+
+
+
 
 
 
