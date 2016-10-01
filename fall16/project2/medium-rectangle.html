@@ -233,6 +233,30 @@
             }
             --*/
 
+            .slide2-bg {
+                animation-name: firstslideup;
+                animation-delay: 3s;
+                animation-duration: 0.83s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
+            }
+           
+
+            @keyframes firstslideup{
+                 0% {
+                    transform: translate(0,0px);
+                    }
+             
+                100% {
+                    transform: translate(0,-255px);
+                }
+            }
+
+
+
+
+
             #sun {
                 animation-name: fadein2;
                 animation-delay: 3.5s;
@@ -258,33 +282,18 @@
 
             @keyframes slideup3{
                 0% {
-                    transform: translate(0,254px);
+                    transform: translate(0,255px);
                 }
                 100% {
                     transform: translate(0,0px);
                 }
             }
+
+  
+
            
 
-            .backgroundimage2 {
-                animation-name: firstslideup;
-                animation-delay: 3s;
-                animation-duration: 0.83s;
-                animation-iteration-count: 1;
-                animation-direction: normal;
-                animation-fill-mode: both;
-            }
-           
-
-            @keyframes firstslideup{
-                 0% {
-                    transform: translate(0,0px);
-                    }
-             
-                100% {
-                    transform: translate(0,-255px);
-                }
-            }
+            
 
 
 
@@ -308,7 +317,7 @@
 
             <!--slide2-->
             <div class="backgroundimage2">
-                <img src="slide2-bg.svg">
+                <img src="slide2-bg.svg" class="slide2-bg">
 
                 <div class="slidetwo">
                     <img src="sun.svg" class="slide2" id="sun">
