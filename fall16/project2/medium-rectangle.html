@@ -212,6 +212,7 @@
                 position: absolute;
                 top: 0;
                 left: 0;
+                width: 300px;
             }
 
 
@@ -228,11 +229,11 @@
 
             @keyframes firstslideup{
                  0% {
-                    transform: translate(0,0px);
+                    transform: translate(0,255px);
                     }
              
                 100% {
-                    transform: translate(0,-255px);
+                    transform: translate(0,0px);
                 }
             }
 
@@ -275,20 +276,21 @@
 
             
             .slide2wrapper {
-                position: relative;
+                position: absolute;
                 animation-name: slideup4;
-                animation-delay: 4s;
+                animation-delay: 6s;
                 animation-duration: 0.83s;
                 animation-fill-mode: both;
-
+                top: 0;
+                left: 0;
             }
 
             @keyframes slideup4{
                 0% {
-                    transform: (0,0px);
+                    transform: translate(0,0px);
                 }
                 100% {
-                    transform: (0,-255px);
+                    transform: translate(0,-255px);
                 }
             }
            
