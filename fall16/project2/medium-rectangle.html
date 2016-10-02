@@ -214,26 +214,9 @@
                 left: 0;
             }
 
-            /*--
-            .backgroundimage2 img{
-                animation-name: slideup2;
-                animation-delay: 3s;
-                animation-duration: 0.83s;
-                animation-fill-mode: both;
-                
-            }
-
-            @keyframes slideup2 {
-                0% {
-                    transform: translate(0,0px);
-                }
-                100% {
-                    transform: translate(0,-254px);
-                }
-            }
-            --*/
 
             .slide2-bg {
+                position: absolute;
                 animation-name: firstslideup;
                 animation-delay: 3s;
                 animation-duration: 0.83s;
@@ -289,8 +272,24 @@
                 }
             }
 
-  
+            
+            .backgroundimage {
+                position: absolute;
+                animation-name: slideup4;
+                animation-delay: 4s;
+                animation-duration: 0.83s;
+                animation-fill-mode: both;
 
+            }
+
+            @keyframes slideup4; {
+            0% {
+                transform: (0,0px)
+            }
+            100% {
+                transform: (0,-255px)
+            }
+            }
            
 
             
@@ -305,25 +304,22 @@
             <!--markup for banner goes below-->
             <div class="backgroundimage">
                 <img src="slide1-bg.svg">
-
-                <div class="slideone">
-                     <img src="coffeebeans.svg" class="slide1" id="beans" alt="text">
-                     <img src="text1.svg" class="slide1"  id="text1" alt="text">
-                     <img src="text2.svg" class="slide1"  id="text2" alt="text">
-                     <img src="text3.svg" class="slide1"  id="text3" alt="text">
-                </div>
+                <img src="coffeebeans.svg" class="slide1" id="beans" alt="text">
+                <img src="text1.svg" class="slide1"  id="text1" alt="text">
+                <img src="text2.svg" class="slide1"  id="text2" alt="text">
+                <img src="text3.svg" class="slide1"  id="text3" alt="text">
+               
 
             </div>
 
             <!--slide2-->
             <div class="backgroundimage2">
                 <img src="slide2-bg.svg" class="slide2-bg">
-
-                <div class="slidetwo">
-                    <img src="sun.svg" class="slide2" id="sun">
-                    <img src="plant.svg" class="slide2" id="plant">
-                </div>
+                <img src="sun.svg" class="slide2" id="sun">
+                <img src="plant.svg" class="slide2" id="plant">
+             
             </div>
+
 
             <!--slide3
               <div class="backgroundimage3">
