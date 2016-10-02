@@ -215,7 +215,7 @@
             }
 
 
-            .slide2-background {
+            #slide2-background {
                 position: absolute;
                 animation-name: firstslideup;
                 animation-delay: 3s;
@@ -235,6 +235,7 @@
                     transform: translate(0,-255px);
                 }
             }
+
 
 
 
@@ -274,7 +275,7 @@
 
             
             .slide2wrapper {
-                position: absolute;
+                position: relative;
                 animation-name: slideup4;
                 animation-delay: 4s;
                 animation-duration: 0.83s;
@@ -314,7 +315,7 @@
 
             <!--slide2-->
             <div class="slide2wrapper">
-                <img src="slide2-background.svg" class="slide2-bg">
+                <img src="slide2-background.svg" class="slide2" id="slide2-background">
                 <img src="sun.svg" class="slide2" id="sun">
                 <img src="plant.svg" class="slide2" id="plant">
              
