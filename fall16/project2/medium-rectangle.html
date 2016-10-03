@@ -237,11 +237,6 @@
                 }
             }
 
-
-
-
-
-
             #sun {
                 animation-name: fadein2;
                 animation-delay: 3.5s;
@@ -278,7 +273,7 @@
             .slide2wrapper {
                 position: absolute;
                 animation-name: slideup4;
-                animation-delay: 6s;
+                animation-delay: 5s;
                 animation-duration: 0.83s;
                 animation-fill-mode: both;
                 top: 0;
@@ -294,9 +289,94 @@
                 }
             }
            
-
+             /*----------------slide3-----------------*/
             
+             .slide3 {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 300px;
+            }
 
+            .slide3wrapper {
+                position: absolute;
+                animation-name: slideup5;
+                animation-delay: 5s;
+                animation-duration: 0.83s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
+                top: 0;
+                left: 0;
+            }
+           
+
+            @keyframes slideup5{
+                 0% {
+                    transform: translate(0,255px);
+                }
+             
+                100% {
+                    transform: translate(0,0px);
+                }
+
+            }
+
+            #wheel {
+                animation-name: turn;
+                animation-delay: 5.5s;
+                animation-duration: 2.3s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
+            }
+
+            @keyframes turn {
+
+                0% {
+                    transform: rotateZ(-360deg);
+
+            }
+
+  
+
+
+
+             /*----------------slide4-----------------*/
+
+             /*--
+
+             .slide4 {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 300px;
+            }
+          
+            #slide4-background {
+                animation-name: slideup5;
+                animation-delay: 5.5s;
+                animation-duration: 0.83s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
+
+            }
+           
+
+            @keyframes slideup5{
+                 0% {
+                    transform: translate(0,255px);
+                }
+             
+                100% {
+                    transform: translate(0,0px);
+                }
+
+            }
+          
+
+            -->
 
 
 
@@ -324,19 +404,28 @@
             </div>
 
 
-            <!--slide3
-              <div class="backgroundimage3">
-                <img src="slide3-bg.svg">
+            <!--slide3-->
+            <div class="slide3wrapper" id="slide3wrapper">
+                <img src="slide3-background.svg" class="slide3" id="slide3-background">
+                <img src="wheelandtext.svg" class="slide3" id="wheel">
+                <!--<img src="roasted.svg" class="slide3" id="roasted">-->
 
-                <div class="slidetwo">
-                    <img src="wheel.svg" class="slide2" id="wheel">
-                    <img src="roasted.svg" class="slide2" id="roasted">
-                </div>
             </div>
+
+            <!--slide4-->
+            <div class="slide4wrapper">
+                <img src="slide4-background.svg" class="slide4" id="slide4-background">
+                <img src="slide4-cups.svg" class="slide4" id="slide4-cups">
+                <img src="slide4-text.svg" class="slide4" id="slide4-text">
+
+            </div>
+
+
+
 
             <div class="ball">
 
-            -->
+            
                  
 
                 
