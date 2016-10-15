@@ -948,119 +948,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.wrapper {
-  margin-left: 550px;
-  margin-top: 200px;
-}
 
 
 
 
-p {
-  border: 2px solid #000000;
-  margin: 0px auto;
-  padding: 50px;
-  background: #ccc;
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  border-radius: 50%;
-}
 
 
-
-/*-----------combo1------------*/
-
-
-#combo1 p, img{
-  animation-name: upAndDown, rainbow;
-  animation-delay: 1s;
-  animation-duration: 2s;
-  animation-iteration-count: 11,3;
-  animation-direction: alternate,normal;
-  animation-fill-mode: both;
-}
-
-
-@keyframes upAndDown{
-
-
-25% {
-  border-radius: 50%;
-    }
-
-30% { 
-  transform: rotateX(180deg);
-    }
-40% {
-  transform: rotateZ(180deg);
-}
-
-}
-
-
-
-
-@keyframes rainbow{
-  0%{
-    background: #000000;
-    }
-  20%{
-    background: #ff0000;
-    }
-  30%{
-    background: #ff9900;
-    }
-  40%{
-    background: #00ffff;
-    }
-  50%{
-   background: #000000;
- }
-}
-
-
-/*-----------combo2------------*/
-
-
-#combo2 p{
-  animation-name: downAndUp, rainbow1;
-  animation-delay: 1s;
-  animation-duration: 2s;
-  animation-iteration-count: 11,3;
-  animation-direction: alternate,normal;
-  animation-fill-mode: both;
-}
-
-
-@keyframes downAndUp{
-
-
-25% {
-  border-radius: 50%;
-}
-
-
-
-}
-
-@keyframes rainbow1{
-  0%{
-    background: #000000;
-    }
-  11%{
-    background: #ff0000;
-    }
-  22%{
-    background: #ff9900;
-    }
-  55%{
-    background: #00ffff;
-    }
- 100%{
-   background: #000000;
- }
-}
 
 
 
