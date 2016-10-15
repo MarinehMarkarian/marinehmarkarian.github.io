@@ -300,12 +300,12 @@
 
             .slide3wrapper {
                 position: absolute;
-                animation-name: slideup5;
-                animation-delay: 5s;
-                animation-duration: 0.83s;
-                animation-iteration-count: 1;
-                animation-direction: normal;
-                animation-fill-mode: both;
+                animation-name: slideup5, slideup4;
+                animation-delay: 5s, 9s;
+                animation-duration: 2s, 2s;
+                animation-iteration-count: 1, 1;
+                animation-direction: normal, normal;
+                animation-fill-mode: backwards, forwards;
                 top: 0;
                 left: 0;
             }
@@ -324,8 +324,8 @@
 
             #wheel {
                 animation-name: turn;
-                animation-delay: 5.5s;
-                animation-duration: 2.3s;
+                animation-delay: 6s;
+                animation-duration: 2.5s;
                 animation-iteration-count: 1;
                 animation-direction: normal;
                 animation-fill-mode: both;
@@ -337,14 +337,45 @@
                     transform: rotateZ(-360deg);
 
             }
+                50% {
+                    opacity: 100;
+                }
 
-  
+                100%{
+                    opacity: 0;
+                }
+            }
+
+            #roasted-circle {
+                animation-name: turn2;
+                animation-delay: 6s;
+                animation-duration: 4s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
+            }
+
+            @keyframes turn2 {
+
+                0% {
+                    transform: rotateZ(-360deg);
+
+            }
+                30% {
+                    opacity: 100;
+                }
+
+               100%{
+                    opacity: 0;
+                }
+            }
+            
 
 
 
              /*----------------slide4-----------------*/
 
-             /*--
+         
 
              .slide4 {
                 position: absolute;
@@ -353,9 +384,29 @@
                 width: 300px;
             }
           
-            #slide4-background {
+            #slide4-bgandtext {
+                animation-name: slidedown2;
+                animation-delay: 8s;
+                animation-duration: 1.5s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
+
+            }
+
+            @keyframes slidedown2 {
+                0% {
+                    transform: translate(0,-255px);
+                }
+                100% {
+                    transform: translate(0,0px);
+                }
+              
+            }
+
+            #slide4-cupsandtable {
                 animation-name: slideup5;
-                animation-delay: 5.5s;
+                animation-delay: 8.5s;
                 animation-duration: 0.83s;
                 animation-iteration-count: 1;
                 animation-direction: normal;
@@ -369,14 +420,184 @@
                     transform: translate(0,255px);
                 }
              
-                100% {
+                50% {
                     transform: translate(0,0px);
                 }
 
             }
           
 
-            -->
+            
+
+            /*-- #slide4-cups {
+                animation-name: fadein3;
+                animation-delay: 8s;
+                animation-duration: 0.83s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
+            }
+
+            @keyframes fadein3 {
+                0% { 
+                    opacity: 0;
+                }
+
+                50% {
+                    opacity: 100;
+                }
+            }--*/
+
+
+            /*----------------slide5-----------------*/
+
+            .slide5 {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 300px;
+            }
+
+            #slide5-textandbg {
+                animation-name: slideinleft;
+                animation-delay: 10s;
+                animation-duration: 0.83s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
+
+            }
+
+            @keyframes slideinleft {
+                0% {
+                    transform: translate(-300px,0);
+                }
+                100% {
+                    transform: translate(0px,0);
+                }
+            }
+
+            #coffeebag1 {
+                animation-name: slidedown3;
+                animation-delay: 10.5s;
+                animation-duration: 0.83s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
+
+            }
+
+            @keyframes slidedown3 {
+                0% {
+                    transform: translate(0,-255px);
+                }
+                100% {
+                    transform: translate(0,0px);
+                }
+            }
+
+
+            #coffeebag2 {
+                animation-name: slidedown3;
+                animation-delay: 11s;
+                animation-duration: 0.83s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
+
+            }
+
+            @keyframes slidedown3 {
+                0% {
+                    transform: translate(0,-255px);
+                }
+                100% {
+                    transform: translate(0,0px);
+                }
+            }
+
+            #coffeebag3 {
+                animation-name: slidedown3;
+                animation-delay: 11.5s;
+                animation-duration: 0.83s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
+
+            }
+
+            @keyframes slidedown3 {
+                0% {
+                    transform: translate(0,-255px);
+                }
+                100% {
+                    transform: translate(0,0px);
+                }
+            }
+
+            #slide5-beans {
+                animation-name: fadein4;
+                animation-delay: 12s;
+                animation-duration: 0.83s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
+            }
+
+            @keyframes fadein4 {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 100;
+                }
+            }
+
+
+            /*----------------slide6-----------------*/
+
+            .slide6 {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 300px;
+            }
+
+            #slide6 {
+                animation-name: fadein5;
+                animation-delay: 13s;
+                animation-duration: 0.83s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
+            }
+
+            @keyframes fadein5 {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 100;
+                }
+            }
+           
+            #slide6-text {
+                animation-name: fadein6;
+                animation-delay: 13.5s;
+                animation-duration: 0.83s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: both;
+            }
+
+            @keyframes fadein6 {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 100;
+                }
+            }
 
 
 
@@ -407,18 +628,45 @@
             <!--slide3-->
             <div class="slide3wrapper" id="slide3wrapper">
                 <img src="slide3-background.svg" class="slide3" id="slide3-background">
-                <img src="wheelandtext.svg" class="slide3" id="wheel">
+                <img src="wheel.svg" class="slide3" id="wheel">
+                <img src="roasted-circle.svg" class="slide3" id="roasted-circle">
                 <!--<img src="roasted.svg" class="slide3" id="roasted">-->
 
             </div>
 
             <!--slide4-->
             <div class="slide4wrapper">
-                <img src="slide4-background.svg" class="slide4" id="slide4-background">
-                <img src="slide4-cups.svg" class="slide4" id="slide4-cups">
-                <img src="slide4-text.svg" class="slide4" id="slide4-text">
+                <!--<img src="slide4-background.svg" class="slide4" id="slide4-background">-->
+
+                <!--<img src="slide4-text.svg" class="slide4" id="slide4-text">-->
+                <img src="slide4-bgandtext.svg" class="slide4" id="slide4-bgandtext">
+                <!--<img src="slide4-cups.svg" class="slide4" id="slide4-cups">-->
+                <img src="slide4-cupsandtable.svg" class="slide4" id="slide4-cupsandtable">
 
             </div>
+
+                 <!--slide5-->
+            <div class="slide5wrapper">
+               
+               <img src="slide5-textandbg.svg" class="slide5" id="slide5-textandbg">
+               
+               <img src="coffeebag1.svg" class="slide5" id="coffeebag1">
+               <img src="coffeebag2.svg" class="slide5" id="coffeebag2">
+               <img src="coffeebag3.svg" class="slide5" id="coffeebag3">
+               <img src="slide5-beans.svg" class="slide5" id="slide5-beans">
+
+
+            </div>
+
+
+            <div class="slide6wrapper">
+
+               <img src="slide6.svg" class="slide6" id="slide6">
+               <img src="slide6-text.svg" class="slide6" id="slide6-text">
+
+
+            </div>
+
 
 
 
