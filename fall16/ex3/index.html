@@ -14,26 +14,26 @@
     </head>
     <body>
 
-        <div class="container">
+    
 
         <!-- GRID 1 -->
                 <div class="description">
                     <p><strong>1. THREE COLUMN GRID</strong> </p>
                     <ul>
-                        <li>4 units wide</li>
+                        <li><strong>Mobile and above:</strong> column 1 & 2 use a two column grid, column 3 uses a one column grid.</li>
                     </ul>
                 </div>
                 <div class="row">
                     <div class="col-xs-6">
-                        column 1
+                        column 1 (6units)
                     </div>
 
                     <div class="col-xs-6">
-                        column 2
+                        column 2 (6units)
                     </div>
 
                     <div class="col-xs-12">
-                        column 3
+                        column 3 (12 units)
                     </div>
                 </div> 
 
@@ -42,8 +42,8 @@
                 <div class="description">
                     <p><strong>2.</strong> </p>
                     <ul>
-                        <li><strong>Mobile:</strong> one column </li>
-                        <li><strong>Tablet & Desktop: </strong> two column</li>
+                        <li><strong>Mobile:</strong> column 1 & 2 use a one column grid. </li>
+                        <li><strong>Tablet & Desktop: </strong> column 1 & 2 use a two column grid. </li>
                     </ul>     
                 </div>
                 <div class="row">
@@ -61,21 +61,23 @@
                 <div class="description">
                     <p><strong>3. </strong> </p>
                     <ul>
-                       <li><strong>Mobile:</strong> two column </li>
-                       <li><strong>Tablet & Desktop: </strong> 3 column</li>
+                       <li><strong>Mobile:</strong> column 1 uses a one column grid, column 2 and 3 are nested columns using a two column grid. </li>
+                       <li><strong>Tablet: </strong> column 1 uses a three column grid, column 2 and 3 use a one column grid</li>
+                       <li><strong>Desktop:</strong> column 1 uses one column grid, column 2 and 3 use a two column grid</li>
                     </ul>     
                 </div>
                 <div class="row">
-                    <div class="col-xs-2 col-md-3 col-lg-4">
-                        column 1
-                    </div>
+                     <div class="col-xs-12 col-md-12 col-lg-12">
+                        column1
+                        <div class="row">
+                            <div class="col-xs-6 col-md-6 col-lg-6">
+                                column 2 (nested)
+                            </div>
 
-                    <div class="col-xs-8 col-md-6 col-lg-4">
-                        column 2
-                    </div>
-
-                    <div class="col-xs-2 col-md-3 col-lg-4">
-                        column 3
+                            <div class="col-xs-6 col-md-6 col-lg-6">
+                                column 3 (nested)
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -84,21 +86,28 @@
                 <div class="description">
                     <p><strong>4. </strong> </p>
                     <ul>
-                       <li><strong>Mobile:</strong> two column </li>
-                       <li><strong>Tablet & Desktop: </strong> 3 column</li>
+                       <li><strong>Mobile:</strong> column 1 uses a one column grid, column 2 & 3 use a two column grid, column 4 uses a one column grid</li>
+                       <li><strong>Tablet & Desktop: </strong> column 1 uses a one column grid, column 2,3 & 4 use a three column grid</li>
+                       <li><strong>Desktop:</strong> column 1 uses a one column grid, column 2,3 & 4 use a three column grid</li>
                     </ul>     
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-md-4 col-lg-4">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
                         column 1
-                    </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-md-4 col-lg-4">
+                                column 2 (nested)
+                            </div>
 
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        column 2
-                    </div>
+                            <div class="col-xs-6 col-md-4 col-lg-4">
+                                column 3 (nested)
+                            </div>
 
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        column 3
+                            <div class="col-xs-12 col-md-4 col-lg-4">
+                                column 4 (nested)
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
@@ -107,21 +116,23 @@
                 <div class="description">
                     <p><strong>5. </strong> </p>
                     <ul>
-                       <li><strong>Mobile:</strong> two column </li>
-                       <li><strong>Tablet & Desktop: </strong> 3 column</li>
+                       <li><strong>Mobile:</strong> column 1,2,3 use a one grid column</li>
+                       <li><strong>Tablet & Desktop: </strong> column 1 uses a one grid column, columns 2 & 3 use a two grid column </li>
                     </ul>     
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-md-4 col-lg-4">
+                    <div class="col-xs-12 col-md-12 col-lg-8">
                         column 1
-                    </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6" >
+                                column 2
+                            </div>
 
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        column 2
-                    </div>
+                            <div class="col-xs-12 col-md-6">
+                                column 3
+                            </div>
+                        </div>
 
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        column 3
                     </div>
                 </div>
 
@@ -129,21 +140,33 @@
                 <div class="description">
                     <p><strong>6. </strong> </p>
                     <ul>
-                       <li><strong>Mobile:</strong> two column </li>
-                       <li><strong>Tablet & Desktop: </strong> 3 column</li>
+                       <li><strong>Mobile:</strong> column 1 uses a one column, column 2 & 5 are nested in column 1 and use a two column grid, columns 3,4 are nested in column 2 and use a 3 three column grid </li>
                     </ul>     
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-md-4 col-lg-4">
+                    <div class="col-xs-12">
                         column 1
-                    </div>
+                        <div class="row">
+                            <div class="col-xs-8">
+                                column 2
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                    column 3
+                                    </div>
+                                    <div class="col-xs-4">
+                                    column 4
+                                    </div>
+                                    <div class="col-xs-4">
+                                    column 4
+                                    </div>
+                                </div>
+                            </div>
 
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        column 2
-                    </div>
+                            <div class="col-xs-4">
+                                column 5
+                            </div>
+                        </div>
 
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        column 3
                     </div>
                 </div>
 
@@ -151,21 +174,41 @@
                 <div class="description">
                     <p><strong>7. </strong> </p>
                     <ul>
-                       <li><strong>Mobile:</strong> two column </li>
-                       <li><strong>Tablet & Desktop: </strong> 3 column</li>
+                       <li><strong>Mobile:</strong> column 1 uses a one column, column 2 & 6 are nested in column 1 and use a two column grid, columns 3,4 & 5 are nested in column 2 and use a three column grid, columns 7 & 8 are nested in column 6 and use a two column grid.</li>
+                       <li><strong>Tablet & Desktop: </strong> column 1 uses a one column grid, column 2 and 6 use a two column grid, columns 3 & 4 are nested in column 2 and use a two column grid, columns 7 & 8 are nested in column 6 and use a two column grid </li> 
                     </ul>     
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-md-4 col-lg-4">
+                    <div class="col-xs-12">
                         column 1
-                    </div>
+                        <div class="row">
+                            <div class="col-xs-8">
+                                column 2
+                                <div class="row">
+                                    <div class="col-xs-4 col-md-6">
+                                    column 3
+                                    </div>
+                                    <div class="col-xs-4 col-md-6">
+                                    column 4
+                                    </div>
+                                    <div class="col-xs-4">
+                                    column 5
+                                    </div>
+                                </div>
+                            </div>
 
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        column 2
-                    </div>
-
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        column 3
+                            <div class="col-xs-4">
+                                column 6
+                                <div class="row">
+                                    <div class="col-xs-6 col-md-6">
+                                    column 7
+                                    </div>
+                                    <div class="col-xs-6 col-md-6">
+                                    column 8
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -173,21 +216,39 @@
                 <div class="description">
                     <p><strong>8. </strong> </p>
                     <ul>
-                       <li><strong>Mobile:</strong> two column </li>
-                       <li><strong>Tablet & Desktop: </strong> 3 column</li>
+                       <li><strong>Mobile:</strong> column 1 and 5 use a two column grid, columns 2,3,4 are nested in column 1 and have a one column grid. Columns 6 & 7 are nested in column 5 and have a two column grid. </li>
+                       <li><strong>Tablet & Desktop: </strong> column 1 and 5 use a two column grid, columns 2,3,4 are nested in column 1 and have a three column grid columns 6 & 7 are nested in column 5 and have a two column grid </li> 
                     </ul>     
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        column 1
-                    </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-md-6">
+                                column 1
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-4">
+                                    column 2
+                                    </div>
+                                    <div class="col-xs-12 col-md-4">
+                                    column 3
+                                    </div>
+                                    <div class="col-xs-12 col-md-4">
+                                    column 4
+                                    </div>
+                                </div>
+                            </div>
 
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        column 2
-                    </div>
-
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        column 3
+                            <div class="col-xs-6 col-md-6">
+                                column 5
+                                <div class="row">
+                                    <div class="col-xs-6 col-md-6">
+                                    column 6
+                                    </div>
+                                    <div class="col-xs-6 col-md-6">
+                                    column 7
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -195,21 +256,28 @@
                 <div class="description">
                     <p><strong>9. </strong> </p>
                     <ul>
-                       <li><strong>Mobile:</strong> two column </li>
-                       <li><strong>Tablet & Desktop: </strong> 3 column</li>
+                       <li><strong>Mobile:</strong> column 1 uses a one column grid, column 2,3,4 are nested in column 1, column 2 & 3 use a two column grid, column 4 uses a one column grid  </li>
+                       <li><strong>Tablet & Desktop: </strong> column 1 uses a one column grid, columns 2,3,4 use a three column grid</li>
                     </ul>     
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        column 1
-                    </div>
-
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        column 2
-                    </div>
-
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        column 3
+                        <div class="row">
+                            <div class="col-xs-12 col-md-12">
+                                column 1
+                                <div class="row">
+                                    <div class="col-xs-6 col-md-4">
+                                    column 2
+                                    </div>
+                                    <div class="col-xs-6 col-md-4">
+                                    column 3
+                                    </div>
+                                    <div class="col-xs-12 col-md-4">
+                                    column 4
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -235,7 +303,7 @@
                     </div>
                 </div>  
 
-        </div>
+    
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
