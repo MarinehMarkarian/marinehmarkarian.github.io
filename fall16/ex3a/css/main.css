@@ -947,6 +947,43 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   .description {
+    font-size: 1em;
+    background: #73acad;
+    padding: .5px; 
+    margin: 0px; 
+    position: center;
+
+  }
+
+
+   .row {
+    border: 2px solid #038a9c;
+    text-align: center;
+    padding-bottom: 2px;
+    padding: 4px;
+   }
+
+   .row > div {
+    border: 1px solid #d6742a;
+    padding: 2px;
+
+   }
+
+   .description >p { 
+    padding-left: 20px;
+    margin: 2px;
+   }
+
+   .description >ul {
+    margin: 2px;
+   }
+
+
+
+
+
+
 
 
 
