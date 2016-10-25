@@ -64,7 +64,7 @@ textarea {
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 990px;
+  max-width: 1061.292px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -449,7 +449,7 @@ textarea {
   }
 }
 /* breakpoint @ 768px */ 
-@media (min-width: 48em) {
+@media (min-width: 768px) {
   .col-md-1 {
     float: left;
     width: 8.333333%;
@@ -948,45 +948,61 @@ textarea {
    Author's custom styles
    ========================================================================== */
  
+   .container {
+    
+   }
 
 
-
-  .nav-row > p {
-  color: #D33C0D;
-  background-color: #3F251B;  
-  font-family: Cookie;
-  font-size: 79.9px;
-  color: #D6A590;
-  margin: 30px 0px 0px 0px;
-  background: rgba(63, 37, 27, 0.7);
-  padding: 5px 0px 0px 30px;
+    .nav-row > p {
+    color: #D33C0D;
+    background-color: #3F251B;  
+    font-family: Cookie;
+    font-size: 79.9px;
+    color: #D6A590;
+    margin: 30px 0px 0px 0px;
+    background: rgba(63, 37, 27, 0.7);
+    padding: 5px 0px 0px 60px;
   }
 
- .nav-row > div{
-  background-color: #3F251B;
-  font-family: 'Amatica SC', cursive;
-  color: #ffffff;
-  font-size: 37.41px;
-  background: rgba(63, 37, 27, 0.7);
-  padding: 0px 30px 30px 30px;
-
-
+    .nav-row > div{
+    background-color: #3F251B;
+    background: rgba(63, 37, 27, 0.7);
+    padding: 0px 15px 30px 15px;
   } 
+
+  div > a {
+    font-size: 30px;
+    font-family: 'Amatica SC', cursive;
+    text-decoration: none;
+    color: #ffffff;
+
+  }
 
   .row2 > div {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     font-size: 33px;
     margin-top: 200px;
     color: #ffffff;
+    text-shadow: 4px 4px 9px #2D1A14;
+  }
+
+  .row3 > div {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 33px;
+    margin-top: 200px;
+    color: #ffffff;
+
   }
 
 
-  body {
+  .hmpg-bg {
     background-repeat: no-repeat;
-    background-attachment: relative;
-    background-position: center;
-
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../bg.jpg);
   }
+
 
 
 
