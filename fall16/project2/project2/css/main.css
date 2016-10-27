@@ -970,6 +970,7 @@ textarea {
     padding: 0px 15px 30px 15px;
   } 
 
+
   div > a {
     font-size: 30px;
     font-family: 'Amatica SC', cursive;
@@ -988,11 +989,14 @@ textarea {
 
   .row3 > div {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 33px;
+    font-size: 20px;
     margin-top: 200px;
     color: #ffffff;
-
-  }
+    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.3); 
+    text-shadow: 4px 4px 9px #2D1A14;
+    padding: 30px;
+	}
 
 
   .hmpg-bg {
