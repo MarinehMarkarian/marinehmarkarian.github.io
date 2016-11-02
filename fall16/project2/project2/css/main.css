@@ -948,9 +948,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
  
-   .container {
-    
-   }
 
 
     .nav-row > p {
@@ -960,15 +957,17 @@ textarea {
     font-size: 79.9px;
     color: #D6A590;
     margin: 30px 0px 0px 0px;
-    background: rgba(63, 37, 27, 0.7);
-    padding: 5px 0px 0px 60px;
+    background: rgba(63, 37, 27, 0.8);
+    padding: 0px 0px 0px 60px;
   }
+
 
     .nav-row > div{
     background-color: #3F251B;
-    background: rgba(63, 37, 27, 0.7);
+    background: rgba(63, 37, 27, 0.8);
     padding: 0px 15px 30px 15px;
   } 
+
 
 
   div > a {
@@ -976,12 +975,13 @@ textarea {
     font-family: 'Amatica SC', cursive;
     text-decoration: none;
     color: #ffffff;
+    padding-left: 90px;
 
   }
 
   .row2 > div {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 33px;
+    font-size: 30px;
     margin-top: 200px;
     color: #ffffff;
     text-shadow: 4px 4px 9px #2D1A14;
@@ -999,6 +999,8 @@ textarea {
 	}
 
 
+
+
   .hmpg-bg {
     background-repeat: no-repeat;
     background-position: top center;
@@ -1007,7 +1009,23 @@ textarea {
     background-image: url(../bg.jpg);
   }
 
+  div > p {
+    font-size: 50px;
+    font-family: 'Amatica SC', cursive;
+    margin: 0px 0px 7px;
+  }
 
+.row4 > div {
+  margin: 20px;
+  background: rgba(132, 92, 71, 0.7);
+ 
+}
+
+.social p {
+  color: #ffffff;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 16px;
+}
 
 
 
