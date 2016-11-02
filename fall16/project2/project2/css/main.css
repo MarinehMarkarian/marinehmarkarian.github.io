@@ -950,14 +950,13 @@ textarea {
  
 
 
-    .nav-row > p {
+    .nav > p {
     color: #D33C0D;
-    background-color: #3F251B;  
+     
     font-family: Cookie;
     font-size: 79.9px;
     color: #D6A590;
     margin: 30px 0px 0px 0px;
-    background: rgba(63, 37, 27, 0.8);
     padding: 0px 0px 0px 60px;
   }
 
@@ -970,12 +969,13 @@ textarea {
 
 
 
-  div > a {
+  .nav > a {
     font-size: 30px;
     font-family: 'Amatica SC', cursive;
     text-decoration: none;
     color: #ffffff;
     padding-left: 90px;
+    margin: 0px;
 
   }
 
@@ -1010,22 +1010,31 @@ textarea {
   }
 
   div > p {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Amatica SC', cursive;
     margin: 0px 0px 7px;
   }
 
+  .description img {
+  padding-left: 0px;
+  padding-bottom: 130px;
+
+  }
+
 .row4 > div {
-  margin: 20px;
-  background: rgba(132, 92, 71, 0.7);
- 
+
+  margin-top: 70px;
+  background: rgba(132, 92, 71, 0.6);
+  padding-top: 40px;
 }
 
 .social p {
   color: #ffffff;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 12px;
+  padding: 20px;
 }
+
 
 
 
