@@ -978,19 +978,42 @@ textarea {
     margin: 0px;
 
   }
-
+  .row2 {
+      padding-top: 50px;
+  }
+  @media screen and (min-width: 768px) {
+    .row2 {
+        padding-top: 100px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .row2 {
+        padding-top: 200px;
+    }
+  }
   .row2 > div {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     font-size: 30px;
-    margin-top: 200px;
     color: #ffffff;
     text-shadow: 4px 4px 9px #2D1A14;
   }
 
+  .row3 {
+      padding-top: 50px;
+  }
+  @media screen and (min-width: 768px) {
+    .row3 {
+        padding-top: 100px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .row3 {
+        padding-top: 200px;
+    }
+  }
   .row3 > div {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     font-size: 20px;
-    margin-top: 200px;
     color: #ffffff;
     background-color: #ffffff;
     background: rgba(255, 255, 255, 0.3); 
@@ -1005,12 +1028,12 @@ textarea {
     background-repeat: no-repeat;
     background-position: top center;
     /*background-size: cover;*/
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-image: url(../main.jpg);
   }
 
-  div > p {
-    font-size: 40px;
+  div > h2 {
+    font-size: 37px;
     font-family: 'Amatica SC', cursive;
     margin: 0px 0px 7px;
   }
@@ -1021,7 +1044,7 @@ textarea {
 
   }
 
-.row4 > div {
+.footer > div {
 
   margin-top: 70px;
   background: rgba(132, 92, 71, 0.6);
@@ -1036,14 +1059,30 @@ textarea {
 }
 
 
-
 .hmpg2-bg {
   background-repeat: no-repeat;
   background-position: top center;
-  background-attachment: fixed;
   background-image: url(../pg2-bg.jpg);
 }
 
+.row3-roastary img {
+  padding-top: 170px;
+
+}
+
+.container2 {
+  width: 990px;
+}
+
+.row4-roastary div {
+  padding-top: 3em;
+  padding-left: 3em;
+}
+
+
+
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+font-size: 20px;
 
 
 
