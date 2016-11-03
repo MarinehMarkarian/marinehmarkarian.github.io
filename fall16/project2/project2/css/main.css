@@ -1037,14 +1037,12 @@ textarea {
 
 
 
-
-
-  .hmpg2-bg {
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-attachment: fixed;
-    background-image: url(../pg2-bg.jpg);
-  }
+.hmpg2-bg {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-image: url(../pg2-bg.jpg);
+}
 
 
 
