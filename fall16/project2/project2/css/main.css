@@ -981,6 +981,17 @@ textarea {
   .row2 {
       padding-top: 50px;
   }
+
+  .row2-roastary {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 3px -1px 5px #2D1A14;
+    padding-top: 150px;
+    padding-bottom: 130px;
+  }
+
+
   @media screen and (min-width: 768px) {
     .row2 {
         padding-top: 100px;
@@ -995,7 +1006,7 @@ textarea {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     font-size: 30px;
     color: #ffffff;
-    text-shadow: 4px 4px 9px #2D1A14;
+    text-shadow: 3px -1px 5px #2D1A14;
   }
 
   .row3 {
@@ -1017,7 +1028,7 @@ textarea {
     color: #ffffff;
     background-color: #ffffff;
     background: rgba(255, 255, 255, 0.3); 
-    text-shadow: 4px 4px 9px #2D1A14;
+    text-shadow: 3px -1px 5px #2D1A14;
     padding: 30px;
 	}
 
