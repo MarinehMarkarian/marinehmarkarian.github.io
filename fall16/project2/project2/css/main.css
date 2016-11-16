@@ -948,69 +948,163 @@ textarea {
    Author's custom styles
    ========================================================================== */
  
-   .container {
-    
-   }
 
 
-    .nav-row > p {
+    .nav > p {
     color: #D33C0D;
-    background-color: #3F251B;  
+     
     font-family: Cookie;
     font-size: 79.9px;
     color: #D6A590;
     margin: 30px 0px 0px 0px;
-    background: rgba(63, 37, 27, 0.7);
-    padding: 5px 0px 0px 60px;
+    padding: 0px 0px 0px 60px;
   }
+
 
     .nav-row > div{
     background-color: #3F251B;
-    background: rgba(63, 37, 27, 0.7);
+    background: rgba(63, 37, 27, 0.8);
     padding: 0px 15px 30px 15px;
   } 
 
-  div > a {
+
+
+  .nav > a {
     font-size: 30px;
     font-family: 'Amatica SC', cursive;
     text-decoration: none;
     color: #ffffff;
+    padding-left: 90px;
+    margin: 0px;
 
   }
+  .row2 {
+      padding-top: 50px;
+  }
 
+  .row2-roastary {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 3px -1px 5px #2D1A14;
+    padding-top: 150px;
+    padding-bottom: 130px;
+  }
+
+
+  @media screen and (min-width: 768px) {
+    .row2 {
+        padding-top: 100px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .row2 {
+        padding-top: 200px;
+    }
+  }
+  
   .row2 > div {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 33px;
-    margin-top: 200px;
+    font-size: 30px;
     color: #ffffff;
-    text-shadow: 4px 4px 9px #2D1A14;
+    text-shadow: 3px -1px 5px #2D1A14;
   }
 
+  .row3 {
+      padding-top: 50px;
+  }
+  @media screen and (min-width: 768px) {
+    .row3 {
+        padding-top: 100px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .row3 {
+        padding-top: 200px;
+    }
+  }
   .row3 > div {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 33px;
-    margin-top: 200px;
+    font-size: 20px;
     color: #ffffff;
+    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.3); 
+    text-shadow: 3px -1px 5px #2D1A14;
+    padding: 30px 5px 30px 30px;
+	}
 
+ home-pic1 {
+    padding: 30px, 30px, 30px, 0px;
   }
+
 
 
   .hmpg-bg {
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
+    /*background-size: cover;*/
     background-attachment: fixed;
-    background-image: url(../bg.jpg);
+    background-image: url(../main.jpg);
   }
 
+  div > h2 {
+    font-size: 37px;
+    font-family: 'Amatica SC', cursive;
+    margin: 0px 0px 7px;
+  }
+
+  .description img {
+  padding-left: 0px;
+  padding-bottom: 130px;
+
+  }
+
+.footer > div {
+
+  margin-top: 70px;
+  background: rgba(132, 92, 71, 0.6);
+  padding-top: 40px;
+}
+
+.social p {
+  color: #ffffff;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 12px;
+  padding: 20px;
+}
+
+
+.hmpg2-bg {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url(../pg2-bg.jpg);
+}
+
+.row3-roastary img {
+  padding-top: 170px;
+
+}
+
+.container2 {
+  width: 990px;
+}
+
+.row4-roastary div {
+  padding-top: 3em;
+  padding-left: 3em;
+}
 
 
 
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+font-size: 20px;
 
 
-
-
-  
+.hmpg3-bg {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url(../pg3-img1.jpg);
+}
 
 
 
