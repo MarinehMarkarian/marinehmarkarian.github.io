@@ -948,23 +948,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
  
-
-
-    .nav > p {
-    color: #D33C0D;
-     
-    font-family: Cookie;
-    font-size: 79.9px;
-    color: #D6A590;
-    margin: 30px 0px 0px 0px;
-    padding: 0px 0px 0px 60px;
+  .nav > img {
+    padding-bottom: 40px;
   }
+
 
 
     .nav-row > div{
     background-color: #3F251B;
     background: rgba(63, 37, 27, 0.8);
-    padding: 0px 15px 30px 15px;
+    padding: 60px 15px 10px 70px;
   } 
 
 
@@ -974,10 +967,14 @@ textarea {
     font-family: 'Amatica SC', cursive;
     text-decoration: none;
     color: #ffffff;
-    padding-left: 90px;
-    margin: 0px;
+    padding-left: 60px;
+   }
+  
+ .nav > a + a {
+  padding-top: 100px;
+   
+  } 
 
-  }
   .row2 {
       padding-top: 50px;
   }
@@ -992,16 +989,6 @@ textarea {
   }
 
 
-  @media screen and (min-width: 768px) {
-    .row2 {
-        padding-top: 100px;
-    }
-  }
-  @media screen and (min-width: 992px) {
-    .row2 {
-        padding-top: 200px;
-    }
-  }
   
   .row2 > div {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
@@ -1010,27 +997,68 @@ textarea {
     text-shadow: 3px -1px 5px #2D1A14;
   }
 
+  .mission {
+    width: 500px;
+  }
+
+
   .row3 {
       padding-top: 50px;
   }
+
+ @media screen and (min-width: 768px) {
+    .row2 {
+        padding-top: 100px;
+
+    }
+ }
+
+  @media screen and (min-width: 992px) {
+    .row2 {
+        padding-top: 200px;
+    }
+  }
+ 
+  @media screen and (min-width: 768px) {
+    .nav-row p{
+      text-align: left;
+
+    }
+
+    .row2 {
+        padding-top: 200px;
+        
+    }
+  }
+
+  @media screen and (min-width: 320px) {
+    .row3 {
+        padding-top: 200px;
+    
+    }
+  }
+
   @media screen and (min-width: 768px) {
     .row3 {
         padding-top: 100px;
     }
   }
+
   @media screen and (min-width: 992px) {
     .row3 {
         padding-top: 200px;
     }
   }
+
+
   .row3 > div {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     font-size: 20px;
     color: #ffffff;
-    background-color: #ffffff;
+    background-color: #3F251B;
     background: rgba(255, 255, 255, 0.3); 
     text-shadow: 3px -1px 5px #2D1A14;
-    padding: 30px 5px 30px 30px;
+    padding: 30px 5px 30px 50px;
 	}
 
  home-pic1 {
@@ -1096,14 +1124,10 @@ textarea {
 
 
 
-font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-font-size: 20px;
-
-
 .hmpg3-bg {
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(../pg3-img1.jpg);
+  background-image: url(../pg3-bg.jpg);
 }
 
 
