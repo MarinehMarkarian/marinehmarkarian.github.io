@@ -949,10 +949,15 @@ textarea {
    ========================================================================== */
  
   .nav > img {
+    float: left;
     padding-bottom: 40px;
+    padding-right: 60px;
   }
 
-
+  .nav .links {
+    float: left;
+    padding-top: 25px;
+  }
 
     .nav-row > div{
     background-color: #3F251B;
@@ -962,18 +967,22 @@ textarea {
 
 
 
-  .nav > a {
+  .nav a {
     font-size: 30px;
     font-family: 'Amatica SC', cursive;
     text-decoration: none;
     color: #ffffff;
-    padding-left: 60px;
+    white-space: nowrap;
    }
-  
- .nav > a + a {
+
+ .nav a + a {
   padding-top: 100px;
-   
   } 
+@media screen and (min-width: 768px) {
+  .nav a + a {
+      padding-left: 60px; 
+  }
+}
 
   .row2 {
       padding-top: 50px;
@@ -994,17 +1003,10 @@ textarea {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     font-size: 30px;
     color: #ffffff;
-    text-shadow: 3px -1px 5px #2D1A14;
-  }
-
-  .mission {
-    width: 500px;
+    text-shadow: 0 0 7px #2D1A14;
   }
 
 
-  .row3 {
-      padding-top: 50px;
-  }
 
  @media screen and (min-width: 768px) {
     .row2 {
@@ -1032,33 +1034,53 @@ textarea {
   }
 
   @media screen and (min-width: 320px) {
-    .row3 {
-        padding-top: 200px;
+   .row3 {
+        margin-top: 200px;
+        text-align : center;
     
+    }
+     .row2 {
+        padding-top: 200px;
+        padding-top: center;
+        
+    }
+
+    .row2 > div {
+      text-align: center;
+    }
+  
+    .links {
+      padding-top: 5px;
+    }
+
+    .logo {
+      padding-bottom: 1px;
     }
   }
 
   @media screen and (min-width: 768px) {
     .row3 {
-        padding-top: 100px;
+        margin-top: 100px;
+        text-align: left;
     }
   }
 
   @media screen and (min-width: 992px) {
     .row3 {
-        padding-top: 200px;
+        margin-top: 200px;
+        text-align: left;
     }
   }
 
-
+  .row3 {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 30px;
+  }
   .row3 > div {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     font-size: 20px;
     color: #ffffff;
-    background-color: #3F251B;
-    background: rgba(255, 255, 255, 0.3); 
-    text-shadow: 3px -1px 5px #2D1A14;
-    padding: 30px 5px 30px 50px;
+    text-shadow: 0 0 7px #2D1A14;
 	}
 
  home-pic1 {
