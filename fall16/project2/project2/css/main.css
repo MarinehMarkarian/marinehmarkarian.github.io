@@ -1164,6 +1164,26 @@ textarea {
 
 
 
+.form {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+
+}
+
+.form input {
+
+font-family: 'Amatica SC', cursive;
+background: #42342C;
+border: none;
+border-radius: 3px;
+
+}
+
+.input{
+  border-radius: 4px;
+}
+
+
+
 
 
 
