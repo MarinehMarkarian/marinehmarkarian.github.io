@@ -965,8 +965,6 @@ textarea {
     padding: 60px 15px 10px 70px;
   } 
 
-
-
   .nav a {
     font-size: 30px;
     font-family: 'Amatica SC', cursive;
@@ -978,6 +976,8 @@ textarea {
  .nav a + a {
   padding-top: 100px;
   } 
+
+
 @media screen and (min-width: 768px) {
   .nav a + a {
       padding-left: 60px; 
@@ -1039,6 +1039,7 @@ textarea {
         text-align : center;
     
     }
+
      .row2 {
         padding-top: 200px;
         padding-top: center;
@@ -1131,7 +1132,7 @@ textarea {
 }
 
 .row3-roastary img {
-  padding-top: 200px;
+  padding-top: 300px;
 
 }
 
@@ -1158,34 +1159,87 @@ textarea {
   background-image: url(../pg4-bg.jpg);
 }
 
-.row4-roastary > pic1 {
-  
-}
 
+
+
+/*---- Form --*/
 
 
 .form {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 .form input {
-
-font-family: 'Amatica SC', cursive;
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 background: #42342C;
 border: none;
 border-radius: 3px;
-
-}
-
-.input{
-  border-radius: 4px;
+color: #ffffff;
 }
 
 
+.input {
+  margin-bottom: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 3px 3px 3px 10px;
+}
+.form div {
+  float: left;
+}
 
 
 
+.checkbox . input{
+  width: 40px;
+  height: 40px;
+  background: #ddd;
+  margin: 20px 90px;
+
+  border-radius: 100%;
+  position: relative;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+.container-form {
+  padding-left: 120px;
+  padding-top: 20px;
+}
+
+
+.submit input {
+  padding-left: 219px;
+  padding-right: 219px;
+  background-color: #ffffff;
+  color: #702a6a;
+  border-bottom: 2px solid #702a6a;
+  text-shadow: 0px 1px 1px #ffffff;
+  margin-bottom: 3px;
+  margin-top: 7px;
+}
+
+.expirationdate div {
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+
+border: none;
+border-radius: 3px;
+color: #42342C;
+
+}
+
+
+.roundedOne label {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  left: 4px;
+  top: 4px;
+}
 
 
 
