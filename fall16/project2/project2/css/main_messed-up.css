@@ -947,24 +947,40 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+ .logo {
+  padding-bottom: 40px;
+  padding-right: 60px;
+ }
 
-  .logo{
-    padding-bottom: 40px;
-    padding-right: 60px;
-    float: left;
-  }
   .nav .links {
-  float: right;
+    float: right;
     padding-top: 25px;
   }
 
-    .nav-row > div{
+.nav-row > div{
     background-color: #3F251B;
     background: rgba(63, 37, 27, 0.8);
     padding: 40px 50px 40px 50px;
   } 
 
-  .nav .links a {
+@media screen and (max-width: 768px) {
+
+  .nav a + a {
+      padding-left: 60px; 
+    }
+
+    .nav-row p{
+      text-align: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .nav a + a {
+      padding-left: 60px; 
+  }
+}
+
+  .nav a {
     font-size: 30px;
     font-family: 'Amatica SC', cursive;
     text-decoration: none;
@@ -972,19 +988,37 @@ textarea {
     white-space: nowrap;
    }
 
- .nav .links a + a {
+ .nav a + a {
   padding-top: 100px;
   } 
 
-
-@media screen and (min-width: 768px) {
-  .nav a + a {
-      padding-left: 60px; 
-  }
-}
-
   .row2 {
       padding-top: 50px;
+  }
+
+  @media screen and (max-width: 768px) {
+
+      .nav a + a {
+      padding-left: 60px; 
+    }
+
+    .nav-row p{
+      text-align: left;
+    }
+
+    .row2 {
+    padding-top: 100px;
+    }
+
+
+    .row2 {
+      padding-top: 200px;    
+    }
+
+   .row3 {
+      margin-top: 100px;
+      text-align: left;
+    }
   }
 
   .row2-roastary {
@@ -1005,52 +1039,50 @@ textarea {
     text-shadow: 0 0 7px #2D1A14;
   }
 
+  @media screen and (max-width: 375px) {
 
-  @media screen and (min-width: 320px) {
-   .row3 {
-        margin-top: 200px;
-        text-align : center;
-    
+    .row3 {
+      margin-top: 200px;
+      text-align : center;
     }
 
-     .row2 {
-        padding-top: 200px;
-        padding-top: center;
-        
+    .row2 {
+      padding-top: 200px;
+      padding-top: center;   
     }
 
     .row2 > div {
       text-align: center;
     }
-  
-    .links {
-      padding-top: 5px;
-    }
 
-    .logo {
-      padding-bottom: 1px;
-    }
+}
 
-    .roastary-heading {
-      width: 30%;
-      height: 30%;
-    }
-
-    .roastary-img {
-      height: 30%;
-    }
-  }
-
-    
-
-  @media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
     .row2 {
         padding-top: 200px;
     }
-      .row3 {
-        margin-top: 200px;
-        text-align: left;
+    .row3 {
+      margin-top: 200px;
+      text-align: left;
     }
+}
+
+
+
+  
+
+
+   
+
+
+
+ 
+ 
+  
+
+
+
+  /*------------------- media --------------------*/
 
   .row3 {
     background: rgba(255, 255, 255, 0.3);
@@ -1061,38 +1093,45 @@ textarea {
     font-size: 20px;
     color: #ffffff;
     text-shadow: 0 0 7px #2D1A14;
+	}
+
+ .home-pic1 {
+    padding: 30px 30px 30px 0px;
   }
-}
 
- 
-  @media screen and (min-width: 768px) {
-    .row2 {
-        padding-top: 100px;
 
-    }
-    .nav-row p{
-      text-align: left;
-
-    }
-
-    .row2 {
-        padding-top: 200px;
-        
-    }
-    .row3 {
-      margin-top: 100px;
-      text-align: left;
-    }
-  }
- 
-
+@media screen and (max-width: 375px) {
   
+    .links {
+      padding-top: 5px;
+      text-align: center;
+    }
 
+    .logo {
+      padding-bottom: 1px;
+    }
 
- home-pic1 {
-    padding: 30px, 30px, 30px, 0px;
-  }
+    .roastary-paragraph {
+      text-align: center;
+    }
+ 
+    .roastary-heading {
+      width: 100%;
+    }
+  
+    .roastary-img {
+      width: 20%;
+      position: center;
+    }
 
+    .roastary-paragraph {
+      width: 30% 
+    }
+
+    .row2-roastary {
+      text-align: center;
+    }
+}
 
 
   .hmpg-bg {
@@ -1109,11 +1148,10 @@ textarea {
     margin: 0px 0px 7px;
   }
 
-  .description img {
+.description img {
   padding-left: 0px;
   padding-bottom: 130px;
-
-  }
+}
 
 .footer > div {
 
@@ -1142,7 +1180,7 @@ textarea {
 }
 
 .container2 {
-  max-width: 990px;
+  width: 990px;
 }
 
 .row4-roastary div {
@@ -1192,13 +1230,10 @@ color: #ffffff;
 .form div {
   float: left;
 }
-.form input[type="text"] {
-  width: 100%;
-}
 
 
 
-.checkbox . input{
+.checkbox input{
   width: 40px;
   height: 40px;
   background: #ddd;
@@ -1227,11 +1262,11 @@ color: #ffffff;
 }
 
 .expirationdate div {
-font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 
-border: none;
-border-radius: 3px;
-color: #42342C;
+  border: none;
+  border-radius: 3px;
+  color: #42342C;
 
 }
 
@@ -1248,8 +1283,6 @@ color: #42342C;
   left: 4px;
   top: 4px;
 }
-
-
 
 
 
