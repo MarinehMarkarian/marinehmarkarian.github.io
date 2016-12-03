@@ -953,6 +953,7 @@ textarea {
     padding-right: 60px;
     float: left;
   }
+
   .nav .links {
   float: right;
     padding-top: 25px;
@@ -1052,17 +1053,21 @@ textarea {
         text-align: left;
     }
 
+  }
+
   .row3 {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(63, 37, 27, 0.8);
     padding: 30px;
   }
+
+
   .row3 > div {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     font-size: 20px;
     color: #ffffff;
     text-shadow: 0 0 7px #2D1A14;
   }
-}
+
 
  
   @media screen and (min-width: 768px) {
