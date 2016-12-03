@@ -954,6 +954,8 @@ textarea {
     float: left;
   }
 
+
+
   .nav .links {
   float: right;
     padding-top: 25px;
@@ -964,6 +966,8 @@ textarea {
     background: rgba(63, 37, 27, 0.8);
     padding: 40px 50px 40px 50px;
   } 
+
+
 
   .nav .links a {
     font-size: 30px;
@@ -1009,19 +1013,18 @@ textarea {
 
   @media screen and (min-width: 320px) {
    .row3 {
-        margin-top: 200px;
-        text-align : center;
+        margin-top: 100px;
+
+      
     
     }
 
      .row2 {
-        padding-top: 200px;
+        padding-top: 40px;
         padding-top: center;
-        
-    }
+        margin-top: 30px;
 
-    .row2 > div {
-      text-align: center;
+        
     }
   
     .links {
@@ -1031,16 +1034,7 @@ textarea {
     .logo {
       padding-bottom: 1px;
     }
-
-    .roastary-heading {
-      width: 30%;
-      height: 30%;
     }
-
-    .roastary-img {
-      height: 30%;
-    }
-  }
 
     
 
@@ -1069,6 +1063,8 @@ textarea {
   }
 
 
+
+
  
   @media screen and (min-width: 768px) {
     .row2 {
@@ -1086,16 +1082,7 @@ textarea {
     }
     .row3 {
       margin-top: 100px;
-      text-align: left;
     }
-  }
- 
-
-  
-
-
- home-pic1 {
-    padding: 30px, 30px, 30px, 0px;
   }
 
 
@@ -1116,7 +1103,8 @@ textarea {
 
   .description img {
   padding-left: 0px;
-  padding-bottom: 130px;
+  padding-top: 50px;
+  
 
   }
 
@@ -1141,10 +1129,67 @@ textarea {
   background-image: url(../pg2-bg.jpg);
 }
 
+
+  .row3-roastary .title {
+    font-size: 50px;
+    font-family: 'Amatica SC', cursive;
+    color: #3F251B;
+    padding-top: 280px;
+
+  }
+
 .row3-roastary img {
   padding-top: 300px;
 
 }
+
+@media screen and (min-width: 375px) {
+
+ .row3-roastary .title {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+.row3-roastary img {
+padding-top: 70px;
+
+}
+}
+
+@media screen and (min-width: 768px) {
+
+ .row3-roastary .title {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 180px;
+}
+
+
+.row3-roastary img {
+  padding-top: 220px;
+
+}
+}
+
+@media screen and (min-width: 1024px) {
+
+ .row3-roastary .title {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 270px;
+}
+
+
+.row3-roastary img {
+  padding-top: 300px;
+
+  padding-top: 290px;
+
+}
+}
+
 
 .container2 {
   max-width: 990px;
@@ -1194,9 +1239,13 @@ color: #ffffff;
   border-radius: 5px;
   padding: 3px 3px 3px 10px;
 }
+
+
 .form div {
   float: left;
 }
+
+
 .form input[type="text"] {
   width: 100%;
 }
@@ -1230,10 +1279,9 @@ color: #ffffff;
   margin-bottom: 3px;
   margin-top: 7px;
 }
-
+≥
 .expirationdate div {
 font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-
 border: none;
 border-radius: 3px;
 color: #42342C;
