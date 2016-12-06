@@ -1190,13 +1190,11 @@ padding-top: 70px;
 
 
 .row3-roastary img {
-  padding-top: 300px;
 
   padding-top: 290px;
 
 }
 
-}
 }
 
 
@@ -1340,6 +1338,27 @@ color: #ffffff;
 
 .form {
   margin-top: 60px;
+}
+
+.row3-thankyou .title2 {
+font-size: 70px;
+font-family: 'Amatica SC', cursive;
+color: #3F251B;
+padding-top:350px;
+}
+
+
+.row3-thankyou .swirl {
+  padding-top:150px;
+}
+
+.title2 p {
+font-size: 25px;
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+border: none;
+border-radius: 3px;
+color: #42342C;
+
 }
 
 /* ==========================================================================
