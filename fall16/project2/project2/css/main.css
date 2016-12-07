@@ -1136,11 +1136,11 @@ textarea {
 }
 
 
-  .row3-roastary .title {
-    font-size: 50px;
-    font-family: 'Amatica SC', cursive;
-    color: #3F251B;
-    padding-top: 280px;
+.row3-roastary .title {
+  font-size: 50px;
+  font-family: 'Amatica SC', cursive;
+  color: #3F251B;
+  padding-top: 280px;
 
   }
 
@@ -1360,6 +1360,26 @@ border-radius: 3px;
 color: #42342C;
 
 }
+
+@media screen and (max-width: 375px) {
+.row3-thankyou .title2 {
+  font-size: 40px;
+  padding-top: 178px;
+}
+
+.title2 p {
+  font-size: 16px;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+  .swirl >img {
+    padding-top: 300px;
+  }
+}
+
+
 
 /* ==========================================================================
    Helper classes
